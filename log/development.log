@@ -13,3 +13,28 @@ Migrating to CreateFinanceStarUsersUsers (20131116100208)
   [1m[35mSQL (0.3ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20131116100208"]]
   [1m[36m (164.8ms)[0m  [1mcommit transaction[0m
   [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to CreateFinanceStarUsersUsers (20131116100208)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.7ms)[0m  [1mDROP TABLE "finance_star_users_users"[0m
+  [1m[35mSQL (0.3ms)[0m  DELETE FROM "schema_migrations" WHERE "schema_migrations"."version" = '20131116100208'
+  [1m[36m (171.0ms)[0m  [1mcommit transaction[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to CreateFinanceStarUsersUsers (20131116100208)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.5ms)[0m  [1mCREATE TABLE "finance_star_users_users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" text, "email" text, "password" text, "phone" text, "admin" integer, "created_at" datetime, "updated_at" datetime) [0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20131116100208"]]
+  [1m[36m (186.7ms)[0m  [1mcommit transaction[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35mFinanceStarUsers::User Load (0.4ms)[0m  SELECT "finance_star_users_users".* FROM "finance_star_users_users" WHERE "finance_star_users_users"."admin" = 1 LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (35.6ms)[0m  INSERT INTO "finance_star_users_users" ("admin", "created_at", "email", "name", "password", "phone", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)  [["admin", 1], ["created_at", Sat, 16 Nov 2013 10:13:26 UTC +00:00], ["email", "admin@admin.com"], ["name", "admin"], ["password", "admin"], ["phone", 18733171780], ["updated_at", Sat, 16 Nov 2013 10:13:26 UTC +00:00]]
+  [1m[36m (237.7ms)[0m  [1mcommit transaction[0m
+  [1m[35mFinanceStarUsers::User Load (0.3ms)[0m  SELECT "finance_star_users_users".* FROM "finance_star_users_users" WHERE "finance_star_users_users"."name" = 'dev' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "finance_star_users_users" ("created_at", "email", "name", "password", "phone", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["created_at", Sat, 16 Nov 2013 10:13:26 UTC +00:00], ["email", "dev@dev.com"], ["name", "dev"], ["password", "dev"], ["phone", "10086"], ["updated_at", Sat, 16 Nov 2013 10:13:26 UTC +00:00]]
+  [1m[36m (163.8ms)[0m  [1mcommit transaction[0m
