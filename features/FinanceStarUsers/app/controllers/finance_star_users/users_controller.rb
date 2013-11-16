@@ -26,7 +26,9 @@ module FinanceStarUsers
     def create
       @user = User.new(user_params)
 
+
       if @user.save
+        MailerService.welcome_email(@user).deliver
         redirect_to @user, notice: 'User was successfully created.'
       else
         render action: 'new'

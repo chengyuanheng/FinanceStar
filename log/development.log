@@ -38,3 +38,305 @@ Migrating to CreateFinanceStarUsersUsers (20131116100208)
   [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
   [1m[35mSQL (0.6ms)[0m  INSERT INTO "finance_star_users_users" ("created_at", "email", "name", "password", "phone", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["created_at", Sat, 16 Nov 2013 10:13:26 UTC +00:00], ["email", "dev@dev.com"], ["name", "dev"], ["password", "dev"], ["phone", "10086"], ["updated_at", Sat, 16 Nov 2013 10:13:26 UTC +00:00]]
   [1m[36m (163.8ms)[0m  [1mcommit transaction[0m
+
+
+Started GET "/users" for 127.0.0.1 at 2013-11-16 19:24:54 +0800
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by FinanceStarUsers::UsersController#index as HTML
+  [1m[35mFinanceStarUsers::User Load (0.3ms)[0m  SELECT "finance_star_users_users".* FROM "finance_star_users_users"
+  Rendered features/FinanceStarUsers/app/views/finance_star_users/users/index.html.erb within layouts/finance_star_users/application (49.0ms)
+Completed 200 OK in 115ms (Views: 68.4ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/finance_star_users/application.css?body=1" for 127.0.0.1 at 2013-11-16 19:24:55 +0800
+
+
+Started GET "/assets/finance_star_users/application.js?body=1" for 127.0.0.1 at 2013-11-16 19:24:55 +0800
+
+
+Started GET "/assets/finance_star_users/users.js?body=1" for 127.0.0.1 at 2013-11-16 19:24:55 +0800
+
+
+Started GET "/assets/finance_star_users/users.css?body=1" for 127.0.0.1 at 2013-11-16 19:24:55 +0800
+
+
+Started GET "/users" for 127.0.0.1 at 2013-11-16 19:25:02 +0800
+Processing by FinanceStarUsers::UsersController#index as HTML
+  [1m[36mFinanceStarUsers::User Load (0.3ms)[0m  [1mSELECT "finance_star_users_users".* FROM "finance_star_users_users"[0m
+  Rendered features/FinanceStarUsers/app/views/finance_star_users/users/index.html.erb within layouts/finance_star_users/application (6.7ms)
+Completed 200 OK in 11ms (Views: 10.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/finance_star_users/application.css?body=1" for 127.0.0.1 at 2013-11-16 19:25:02 +0800
+
+
+Started GET "/assets/finance_star_users/users.css?body=1" for 127.0.0.1 at 2013-11-16 19:25:02 +0800
+
+
+Started GET "/assets/finance_star_users/users.js?body=1" for 127.0.0.1 at 2013-11-16 19:25:02 +0800
+
+
+Started GET "/assets/finance_star_users/application.js?body=1" for 127.0.0.1 at 2013-11-16 19:25:02 +0800
+
+
+Started GET "/users/new" for 127.0.0.1 at 2013-11-16 19:25:05 +0800
+Processing by FinanceStarUsers::UsersController#new as HTML
+  Rendered features/FinanceStarUsers/app/views/finance_star_users/users/_form.html.erb (46.5ms)
+  Rendered features/FinanceStarUsers/app/views/finance_star_users/users/new.html.erb within layouts/finance_star_users/application (53.2ms)
+Completed 200 OK in 60ms (Views: 59.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/finance_star_users/application.css?body=1" for 127.0.0.1 at 2013-11-16 19:25:05 +0800
+
+
+Started GET "/assets/finance_star_users/users.css?body=1" for 127.0.0.1 at 2013-11-16 19:25:05 +0800
+
+
+Started GET "/assets/finance_star_users/application.js?body=1" for 127.0.0.1 at 2013-11-16 19:25:05 +0800
+
+
+Started GET "/assets/finance_star_users/users.js?body=1" for 127.0.0.1 at 2013-11-16 19:25:05 +0800
+
+
+Started POST "/users" for 127.0.0.1 at 2013-11-16 19:25:45 +0800
+Processing by FinanceStarUsers::UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"x41nRCTKiVL7EbxAziD46AMHkGIeNK/3cQ/UKz79FE4=", "user"=>{"name"=>"jj", "email"=>"237178842@qq.com", "password"=>"[FILTERED]", "phone"=>"", "admin"=>""}, "commit"=>"Create User"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (29.5ms)[0m  [1mINSERT INTO "finance_star_users_users" ("created_at", "email", "name", "password", "phone", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", Sat, 16 Nov 2013 11:25:45 UTC +00:00], ["email", "237178842@qq.com"], ["name", "jj"], ["password", ""], ["phone", ""], ["updated_at", Sat, 16 Nov 2013 11:25:45 UTC +00:00]]
+  [1m[35m (186.4ms)[0m  commit transaction
+  Rendered mailer_service/welcome_email.html.erb (0.5ms)
+  Rendered mailer_service/welcome_email.text.erb (0.4ms)
+
+Sent mail to 237178842@qq.com (6089.0ms)
+Date: Sat, 16 Nov 2013 19:25:45 +0800
+From: geteshiye@gmail.com
+To: 237178842@qq.com
+Message-ID: <52875639e57aa_18882527e9a481718@joker-K42Jc.mail>
+Subject: Welcome To My Awesome Site
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_52875639e2db5_18882527e9a4816d8";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_52875639e2db5_18882527e9a4816d8
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Welcome to example.com, jj
+===============================================
+
+You have successfully signed up to example.com,
+your login email is: 237178842@qq.com.
+
+To login to the site, just follow this link: http://localhost:3000.
+
+Thanks for joining and have a great day!
+----==_mimepart_52875639e2db5_18882527e9a4816d8
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+</head>
+<body>
+<h1>Welcome to example.com, jj</h1>
+<p>
+  You have successfully signed up to example.com,
+  your login email is: 237178842@qq.com.<br/>
+</p>
+<p>
+  To login to the site, just follow this link: http://localhost:3000.
+</p>
+<p>Thanks for joining and have a great day!</p>
+</body>
+</html>
+----==_mimepart_52875639e2db5_18882527e9a4816d8--
+
+Redirected to http://localhost:3000/users/6
+Completed 302 Found in 6928ms (ActiveRecord: 216.0ms)
+
+
+Started GET "/users/6" for 127.0.0.1 at 2013-11-16 19:25:52 +0800
+Processing by FinanceStarUsers::UsersController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mFinanceStarUsers::User Load (0.3ms)[0m  [1mSELECT "finance_star_users_users".* FROM "finance_star_users_users" WHERE "finance_star_users_users"."id" = ? LIMIT 1[0m  [["id", "6"]]
+  Rendered features/FinanceStarUsers/app/views/finance_star_users/users/show.html.erb within layouts/finance_star_users/application (1.7ms)
+Completed 200 OK in 9ms (Views: 6.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/finance_star_users/users.js?body=1" for 127.0.0.1 at 2013-11-16 19:25:52 +0800
+
+
+Started GET "/assets/finance_star_users/application.js?body=1" for 127.0.0.1 at 2013-11-16 19:25:52 +0800
+
+
+Started GET "/assets/finance_star_users/users.css?body=1" for 127.0.0.1 at 2013-11-16 19:25:52 +0800
+
+
+Started GET "/assets/finance_star_users/application.css?body=1" for 127.0.0.1 at 2013-11-16 19:25:52 +0800
+
+
+Started GET "/users" for 127.0.0.1 at 2013-11-16 19:26:37 +0800
+Processing by FinanceStarUsers::UsersController#index as HTML
+  [1m[35mFinanceStarUsers::User Load (0.4ms)[0m  SELECT "finance_star_users_users".* FROM "finance_star_users_users"
+  Rendered features/FinanceStarUsers/app/views/finance_star_users/users/index.html.erb within layouts/finance_star_users/application (15.9ms)
+Completed 200 OK in 22ms (Views: 18.9ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/finance_star_users/users.css?body=1" for 127.0.0.1 at 2013-11-16 19:26:37 +0800
+
+
+Started GET "/assets/finance_star_users/application.css?body=1" for 127.0.0.1 at 2013-11-16 19:26:37 +0800
+
+
+Started GET "/assets/finance_star_users/application.js?body=1" for 127.0.0.1 at 2013-11-16 19:26:37 +0800
+
+
+Started GET "/assets/finance_star_users/users.js?body=1" for 127.0.0.1 at 2013-11-16 19:26:37 +0800
+
+
+Started GET "/users" for 127.0.0.1 at 2013-11-16 19:26:38 +0800
+Processing by FinanceStarUsers::UsersController#index as HTML
+  [1m[36mFinanceStarUsers::User Load (0.3ms)[0m  [1mSELECT "finance_star_users_users".* FROM "finance_star_users_users"[0m
+  Rendered features/FinanceStarUsers/app/views/finance_star_users/users/index.html.erb within layouts/finance_star_users/application (7.0ms)
+Completed 200 OK in 46ms (Views: 44.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/finance_star_users/application.css?body=1" for 127.0.0.1 at 2013-11-16 19:26:38 +0800
+
+
+Started GET "/assets/finance_star_users/application.js?body=1" for 127.0.0.1 at 2013-11-16 19:26:38 +0800
+
+
+Started GET "/assets/finance_star_users/users.css?body=1" for 127.0.0.1 at 2013-11-16 19:26:38 +0800
+
+
+Started GET "/assets/finance_star_users/users.js?body=1" for 127.0.0.1 at 2013-11-16 19:26:38 +0800
+
+
+Started GET "/users/new" for 127.0.0.1 at 2013-11-16 19:26:39 +0800
+Processing by FinanceStarUsers::UsersController#new as HTML
+  Rendered features/FinanceStarUsers/app/views/finance_star_users/users/_form.html.erb (6.5ms)
+  Rendered features/FinanceStarUsers/app/views/finance_star_users/users/new.html.erb within layouts/finance_star_users/application (9.9ms)
+Completed 200 OK in 17ms (Views: 16.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/finance_star_users/application.css?body=1" for 127.0.0.1 at 2013-11-16 19:26:39 +0800
+
+
+Started GET "/assets/finance_star_users/users.css?body=1" for 127.0.0.1 at 2013-11-16 19:26:39 +0800
+
+
+Started GET "/assets/finance_star_users/users.js?body=1" for 127.0.0.1 at 2013-11-16 19:26:39 +0800
+
+
+Started GET "/assets/finance_star_users/application.js?body=1" for 127.0.0.1 at 2013-11-16 19:26:39 +0800
+
+
+Started POST "/users" for 127.0.0.1 at 2013-11-16 19:27:00 +0800
+Processing by FinanceStarUsers::UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"x41nRCTKiVL7EbxAziD46AMHkGIeNK/3cQ/UKz79FE4=", "user"=>{"name"=>"lllllllll", "email"=>"237178842@qq.com", "password"=>"[FILTERED]", "phone"=>"18733171780", "admin"=>"1"}, "commit"=>"Create User"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "finance_star_users_users" ("admin", "created_at", "email", "name", "password", "phone", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["admin", 1], ["created_at", Sat, 16 Nov 2013 11:27:00 UTC +00:00], ["email", "237178842@qq.com"], ["name", "lllllllll"], ["password", "yehehuan123"], ["phone", "18733171780"], ["updated_at", Sat, 16 Nov 2013 11:27:00 UTC +00:00]]
+  [1m[35m (187.0ms)[0m  commit transaction
+  Rendered mailer_service/welcome_email.html.erb (0.1ms)
+  Rendered mailer_service/welcome_email.text.erb (0.0ms)
+
+Sent mail to 237178842@qq.com (11052.9ms)
+Date: Sat, 16 Nov 2013 19:27:00 +0800
+From: geteshiye@gmail.com
+To: 237178842@qq.com
+Message-ID: <528756849f75b_188824e581e0819a2@joker-K42Jc.mail>
+Subject: Welcome To My Awesome Site
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_528756849dc62_188824e581e08189f";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_528756849dc62_188824e581e08189f
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Welcome to example.com, lllllllll
+===============================================
+
+You have successfully signed up to example.com,
+your login email is: 237178842@qq.com.
+
+To login to the site, just follow this link: http://localhost:3000.
+
+Thanks for joining and have a great day!
+----==_mimepart_528756849dc62_188824e581e08189f
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+</head>
+<body>
+<h1>Welcome to example.com, lllllllll</h1>
+<p>
+  You have successfully signed up to example.com,
+  your login email is: 237178842@qq.com.<br/>
+</p>
+<p>
+  To login to the site, just follow this link: http://localhost:3000.
+</p>
+<p>Thanks for joining and have a great day!</p>
+</body>
+</html>
+----==_mimepart_528756849dc62_188824e581e08189f--
+
+Redirected to http://localhost:3000/users/7
+Completed 302 Found in 11273ms (ActiveRecord: 187.6ms)
+
+
+Started GET "/users/7" for 127.0.0.1 at 2013-11-16 19:27:11 +0800
+Processing by FinanceStarUsers::UsersController#show as HTML
+  Parameters: {"id"=>"7"}
+  [1m[36mFinanceStarUsers::User Load (0.7ms)[0m  [1mSELECT "finance_star_users_users".* FROM "finance_star_users_users" WHERE "finance_star_users_users"."id" = ? LIMIT 1[0m  [["id", "7"]]
+  Rendered features/FinanceStarUsers/app/views/finance_star_users/users/show.html.erb within layouts/finance_star_users/application (1.2ms)
+Completed 200 OK in 10ms (Views: 6.5ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/finance_star_users/users.css?body=1" for 127.0.0.1 at 2013-11-16 19:27:11 +0800
+
+
+Started GET "/assets/finance_star_users/application.css?body=1" for 127.0.0.1 at 2013-11-16 19:27:11 +0800
+
+
+Started GET "/assets/finance_star_users/users.js?body=1" for 127.0.0.1 at 2013-11-16 19:27:11 +0800
+
+
+Started GET "/assets/finance_star_users/application.js?body=1" for 127.0.0.1 at 2013-11-16 19:27:11 +0800
+
+
+Started GET "/users" for 127.0.0.1 at 2013-11-16 19:27:42 +0800
+Processing by FinanceStarUsers::UsersController#index as HTML
+  [1m[35mFinanceStarUsers::User Load (0.2ms)[0m  SELECT "finance_star_users_users".* FROM "finance_star_users_users"
+  Rendered features/FinanceStarUsers/app/views/finance_star_users/users/index.html.erb within layouts/finance_star_users/application (7.8ms)
+Completed 200 OK in 12ms (Views: 11.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/finance_star_users/application.css?body=1" for 127.0.0.1 at 2013-11-16 19:27:42 +0800
+
+
+Started GET "/assets/finance_star_users/users.js?body=1" for 127.0.0.1 at 2013-11-16 19:27:42 +0800
+
+
+Started GET "/assets/finance_star_users/users.css?body=1" for 127.0.0.1 at 2013-11-16 19:27:42 +0800
+
+
+Started GET "/assets/finance_star_users/application.js?body=1" for 127.0.0.1 at 2013-11-16 19:27:42 +0800
