@@ -43,3 +43,7 @@ end
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
+
+gem 'finance_star_users', :path => "./features/FinanceStarUsers"
+
+
