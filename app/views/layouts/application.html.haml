@@ -1,0 +1,15 @@
+!!!
+%html
+  %head
+    %title 财务星 后台管理
+    = stylesheet_link_tag    "application", :media => "all"
+    = stylesheet_link_tag    @custom_css, :media => "all" if @custom_css
+    = javascript_include_tag "application"
+    = javascript_include_tag @custom_js if @custom_js
+    = csrf_meta_tags
+  %body
+    #wrapper
+      =render "shared/header"
+      .container
+        = yield
+      =render "shared/footer"

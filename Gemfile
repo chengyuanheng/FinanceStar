@@ -44,6 +44,13 @@ end
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
+gem 'haml-rails'
+gem 'bootstrap-sass'
+gem 'will_paginate-bootstrap'
+gem 'will_paginate', '~> 3.0'
+
 gem 'finance_star_users', :path => "./features/FinanceStarUsers"
+
+
 
 
