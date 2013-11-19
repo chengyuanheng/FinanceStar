@@ -1,7 +1,5 @@
 module FinanceStarUsers
-  class ApplicationController < ActionController::Base
-
-    layout 'application'
+  class ApplicationController < FinanceStarUsers.BaseControllerClass
 
   end
 end
