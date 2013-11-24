@@ -1,6 +1,8 @@
 FinanceStarUsers::Engine.routes.draw do
   resources :users
+  resources :sessions
 
-  root :to => 'users#new'
+  root :to => 'sessions#new'
+
 
 end
