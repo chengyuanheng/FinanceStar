@@ -5120,3 +5120,65 @@ Started GET "/assets/finance_star_users/sessions.js?body=1" for 127.0.0.1 at 201
 
 
 Started GET "/assets/finance_star_users/application.js?body=1" for 127.0.0.1 at 2013-11-24 10:06:51 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2013-11-24 12:10:28 +0800
+Processing by FinanceStarUsers::SessionsController#new as HTML
+  Rendered features/FinanceStarUsers/app/views/finance_star_users/sessions/new.html.haml within layouts/application (3.5ms)
+  Rendered shared/_header.html.haml (0.1ms)
+  Rendered shared/_footer.html.haml (0.1ms)
+Completed 200 OK in 15ms (Views: 13.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-24 12:10:28 +0800
+
+
+Started GET "/assets/bootstrap-custom.css?body=1" for 127.0.0.1 at 2013-11-24 12:10:28 +0800
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-11-24 12:10:28 +0800
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2013-11-24 12:10:28 +0800
+
+
+Started GET "/assets/font.css?body=1" for 127.0.0.1 at 2013-11-24 12:10:28 +0800
+
+
+Started GET "/assets/finance_star_users/application.css?body=1" for 127.0.0.1 at 2013-11-24 12:10:28 +0800
+
+
+Started GET "/assets/finance_star_users/sessions.css?body=1" for 127.0.0.1 at 2013-11-24 12:10:28 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-24 12:10:28 +0800
+
+
+Started GET "/assets/finance_star_users/users.css?body=1" for 127.0.0.1 at 2013-11-24 12:10:28 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-24 12:10:28 +0800
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2013-11-24 12:10:28 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-24 12:10:28 +0800
+
+
+Started GET "/assets/html5shiv.js?body=1" for 127.0.0.1 at 2013-11-24 12:10:28 +0800
+
+
+Started GET "/assets/jquery-1.10.2.min.js?body=1" for 127.0.0.1 at 2013-11-24 12:10:28 +0800
+
+
+Started GET "/assets/finance_star_users/sessions.js?body=1" for 127.0.0.1 at 2013-11-24 12:10:28 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-24 12:10:28 +0800
+
+
+Started GET "/assets/finance_star_users/users.js?body=1" for 127.0.0.1 at 2013-11-24 12:10:28 +0800
+
+
+Started GET "/assets/finance_star_users/application.js?body=1" for 127.0.0.1 at 2013-11-24 12:10:28 +0800

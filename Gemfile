@@ -38,6 +38,8 @@ group :test do
   gem 'factory_girl_rails'
 end
 
+gem 'mysql2'
+
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.1.2'
@@ -55,6 +57,7 @@ gem 'haml-rails'
 gem 'bootstrap-sass'
 gem 'will_paginate-bootstrap'
 gem 'will_paginate', '~> 3.0'
+
 
 gem 'finance_star_users', :path => "./features/FinanceStarUsers"
 

@@ -5,11 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/features/FinanceStarUsers/app/views/finance_star_users/sessions/new.html.haml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/features/FinanceStarUsers/spec/spec_helper.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/features/FinanceStarUsers/spec/controllers/users_controller_spec.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/database.yml" afterPath="$PROJECT_DIR$/config/database.yml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log/development.log" afterPath="$PROJECT_DIR$/log/development.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/FinanceStarUsers/config/routes.rb" afterPath="$PROJECT_DIR$/features/FinanceStarUsers/config/routes.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/FinanceStarUsers/finance_star_users.gemspec" afterPath="$PROJECT_DIR$/features/FinanceStarUsers/finance_star_users.gemspec" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="FinanceStar.iws" />
@@ -34,14 +36,14 @@
     <file path="/moode_user_plugin.gemspec" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1384750630504" ignored="false" />
     <file path="/application_controller.rb" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1384751555870" ignored="false" />
     <file path="$PROJECT_DIR$/../kehutong/server/app/views/shared/_header.html.haml" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1384819843397" ignored="false" />
-    <file path="$PROJECT_DIR$/../kehutong/server/config/database.yml" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1384837853128" ignored="false" />
+    <file path="$PROJECT_DIR$/../kehutong/server/config/database.yml" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1385279138447" ignored="false" />
     <file path="$PROJECT_DIR$/../kehutong/server/features/CustomerService/app/models/customer_service/weixin_format.rb" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1384762909643" ignored="false" />
     <file path="/weixin_format.rb" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1384757414614" ignored="false" />
     <file path="$PROJECT_DIR$/../kehutong/server/features/CustomerService/spec/controllers/weixin_marketing_controller_spec.rb" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1384767755606" ignored="false" />
     <file path="$PROJECT_DIR$/../kehutong/server/features/CustomerService/app/controllers/customer_service/weixin_marketing_controller.rb" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1384761540560" ignored="false" />
     <file path="$PROJECT_DIR$/../kehutong/server/features/moode_user_plugin/app/models/moode_user_plugin/user.rb" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1384757228814" ignored="false" />
     <file path="$PROJECT_DIR$/../kehutong/server/features/moode_user_plugin/app/controllers/moode_user_plugin/sessions_controller.rb" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1384762940462" ignored="false" />
-    <file path="/a.dummy" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1384857989010" ignored="false" />
+    <file path="/a.dummy" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1385278971882" ignored="false" />
     <file path="$PROJECT_DIR$/../kehutong/server/features/moode_user_plugin/app/controllers/moode_user_plugin/account_api_controller.rb" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1384762932783" ignored="false" />
     <file path="/account_api_controller.rb" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1384762932783" ignored="false" />
     <file path="$PROJECT_DIR$/../kehutong/server/features/CustomerService/app/controllers/customer_service/show_service_controller.rb" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1384765248454" ignored="false" />
@@ -100,7 +102,7 @@
     <file path="$PROJECT_DIR$/../kehutong/server/features/CustomerManagement/lib/customer_management.rb" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1384769847890" ignored="false" />
     <file path="$PROJECT_DIR$/../kehutong/server/features/moode_user_plugin/lib/generators/md_initializer/md_initializer_generator.rb" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1384815696794" ignored="false" />
     <file path="/_header.html.haml" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1384819612184" ignored="false" />
-    <file path="$PROJECT_DIR$/../kehutong/server/config/initializers/moode_user_plugin.rb" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1384825369339" ignored="false" />
+    <file path="$PROJECT_DIR$/../kehutong/server/config/initializers/moode_user_plugin.rb" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1385267118865" ignored="false" />
     <file path="dbtable:/3e3c2fc/6b1e4bca-d053-4cf7-bc40-0a8580e7b14e/..customer_service_weixin_verify_codes" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1384827390761" ignored="false" />
     <file path="dbtable:/3e3c2fc/6b1e4bca-d053-4cf7-bc40-0a8580e7b14e/..delayed_jobs" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1384827396910" ignored="false" />
     <file path="$PROJECT_DIR$/../kehutong/server/features/CustomerManagement/app/views/customer_management/update_excel/_edit_sms.html.haml" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1384828009019" ignored="false" />
@@ -117,6 +119,8 @@
     <file path="/update_excel_helper_spec.rb" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1384847165407" ignored="false" />
     <file path="$PROJECT_DIR$/../kehutong/server/features/CustomerManagement/spec/controllers/customer_management/update_excel_controller_spec.rb" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1384857338436" ignored="false" />
     <file path="/update_excel_controller_spec.rb" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1384856432834" ignored="false" />
+    <file path="/users_controller_spec.rb" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1385278192067" ignored="false" />
+    <file path="/database.yml" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1385279575511" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -143,8 +147,62 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="new.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/features/FinanceStarUsers/app/views/finance_star_users/users/new.html.erb">
+      <file leaf-file-name="spec_helper.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/features/FinanceStarUsers/spec/spec_helper.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="56" column="4" selection-start="1966" selection-end="1966" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.rdoc" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/features/FinanceStarUsers/test/dummy/README.rdoc">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="15" column="2" selection-start="226" selection-end="226" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="database.yml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/features/FinanceStarUsers/test/dummy/config/database.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="16" column="12" selection-start="442" selection-end="457" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/features/FinanceStarUsers/test/dummy/config/environments/test.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="14" selection-start="276" selection-end="276" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="database.yml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/database.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="20" column="51" selection-start="520" selection-end="520" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="seeds.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/db/seeds.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="20" selection-start="423" selection-end="423" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="development.sqlite3" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/db/development.sqlite3">
           <provider selected="true" editor-type-id="text-editor">
             <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
@@ -152,35 +210,8 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="routes.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/features/FinanceStarUsers/config/routes.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="26" selection-start="108" selection-end="108" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="sessions_controller.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/features/FinanceStarUsers/app/controllers/finance_star_users/sessions_controller.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="45" selection-start="296" selection-end="296" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Gemfile" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Gemfile">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="8" selection-start="944" selection-end="945" vertical-scroll-proportion="-6.16">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="spec_helper.rb" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/spec/spec_helper.rb">
+      <file leaf-file-name="test.sqlite3" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/db/test.sqlite3">
           <provider selected="true" editor-type-id="text-editor">
             <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
@@ -188,8 +219,8 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Gemfile.lock" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Gemfile.lock">
+      <file leaf-file-name="production.sqlite3" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/db/production.sqlite3">
           <provider selected="true" editor-type-id="text-editor">
             <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
@@ -197,37 +228,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="show.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/features/FinanceStarUsers/app/views/finance_star_users/users/show.html.erb">
+      <file leaf-file-name="schema.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/db/schema.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_form.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/features/FinanceStarUsers/app/views/finance_star_users/users/_form.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/features/FinanceStarUsers/app/views/finance_star_users/users/index.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="users_helper.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/features/FinanceStarUsers/app/helpers/finance_star_users/users_helper.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="2" column="57" selection-start="153" selection-end="153" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -251,12 +255,8 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/views/share/_header.html.haml" />
-        <option value="$PROJECT_DIR$/features/FinanceStarUsers/app/views/finance_star_users/users/_form.html.erb" />
-        <option value="$PROJECT_DIR$/features/FinanceStarUsers/app/views/layouts/finance_star_users/application.html.haml" />
         <option value="$PROJECT_DIR$/features/FinanceStarUsers/app/views/finance_star_users/users/_form.html.haml" />
         <option value="$PROJECT_DIR$/config/application.rb" />
-        <option value="$PROJECT_DIR$/features/FinanceStarUsers/finance_star_users.gemspec" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.haml" />
         <option value="$PROJECT_DIR$/features/FinanceStarUsers/lib/finance_star_users.rb" />
         <option value="$PROJECT_DIR$/config/initializers/finance_star_users.rb" />
@@ -266,7 +266,11 @@
         <option value="$PROJECT_DIR$/features/FinanceStarUsers/app/views/finance_star_users/sessions/new.html.haml" />
         <option value="$PROJECT_DIR$/features/FinanceStarUsers/config/routes.rb" />
         <option value="$PROJECT_DIR$/features/FinanceStarUsers/app/controllers/finance_star_users/sessions_controller.rb" />
+        <option value="$PROJECT_DIR$/features/FinanceStarUsers/finance_star_users.gemspec" />
+        <option value="$PROJECT_DIR$/features/FinanceStarUsers/spec/spec_helper.rb" />
+        <option value="$PROJECT_DIR$/features/FinanceStarUsers/spec/controllers/users_controller_spec.rb" />
         <option value="$PROJECT_DIR$/Gemfile" />
+        <option value="$PROJECT_DIR$/config/database.yml" />
       </list>
     </option>
   </component>
@@ -318,20 +322,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FinanceStar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FinanceStar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spec" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -347,11 +337,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/features/FinanceStarUsers/spec" />
       <recent name="$PROJECT_DIR$/features/FinanceStarUsers/app/views/finance_star_users/sessions" />
       <recent name="$PROJECT_DIR$/app/assets/images" />
       <recent name="$PROJECT_DIR$/app/assets/javascripts" />
       <recent name="$PROJECT_DIR$/app/assets/stylesheets" />
-      <recent name="$PROJECT_DIR$/features/FinanceStarUsers/app/views/finance_star_users/users" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/app/assets/images" />
@@ -614,22 +604,22 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1366" height="743" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32847896" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.13394216" sideWeight="0.671521" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29223743" sideWeight="0.671521" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29223743" sideWeight="0.671521" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32847896" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32847896" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32847896" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -697,28 +687,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/config/initializers/finance_star_users.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="13" selection-start="0" selection-end="36" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/FinanceStarUsers/lib/finance_star_users.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="22" selection-start="168" selection-end="168" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/FinanceStarUsers/app/controllers/finance_star_users/application_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="68" selection-start="93" selection-end="93" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/FinanceStarUsers/app/views/finance_star_users/sessions/new.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="28" selection-start="371" selection-end="371" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/features/FinanceStarUsers/app/controllers/finance_star_users/users_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -726,77 +694,105 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/features/FinanceStarUsers/app/helpers/finance_star_users/sessions_helper.rb">
+    <entry file="file://$PROJECT_DIR$/features/FinanceStarUsers/spec/controllers/users_controller_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/features/FinanceStarUsers/app/helpers/finance_star_users/users_helper.rb">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/FinanceStarUsers/app/views/finance_star_users/users/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/FinanceStarUsers/app/views/finance_star_users/users/new.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/FinanceStarUsers/app/views/finance_star_users/users/_form.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/FinanceStarUsers/app/views/finance_star_users/users/show.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/FinanceStarUsers/config/routes.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="26" selection-start="108" selection-end="108" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/FinanceStarUsers/app/controllers/finance_star_users/sessions_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="45" selection-start="296" selection-end="296" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile.lock">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="9" column="28" selection-start="351" selection-end="351" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="8" selection-start="944" selection-end="945" vertical-scroll-proportion="-6.16">
+        <state line="5" column="21" selection-start="138" selection-end="138" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spec/spec_helper.rb">
+    <entry file="file://$PROJECT_DIR$/README.rdoc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="2" selection-start="226" selection-end="226" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/environments/test.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="14" selection-start="282" selection-end="282" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/FinanceStarUsers/spec/spec_helper.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="56" column="4" selection-start="1966" selection-end="1966" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/FinanceStarUsers/test/dummy/README.rdoc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="2" selection-start="226" selection-end="226" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/FinanceStarUsers/test/dummy/config/environments/test.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="14" selection-start="276" selection-end="276" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/FinanceStarUsers/test/dummy/config/database.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="12" selection-start="442" selection-end="457" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/schema.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="57" selection-start="153" selection-end="153" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/development.sqlite3">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/database.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="51" selection-start="520" selection-end="520" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/seeds.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="20" selection-start="423" selection-end="423" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/test.sqlite3">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/production.sqlite3">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
