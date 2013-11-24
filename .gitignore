@@ -15,4 +15,6 @@ server/db/schema.rb
 log
 tmp
 .idea
+.log
+.xml
 
