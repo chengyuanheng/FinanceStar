@@ -5,20 +5,44 @@ module FinanceStarUsers
 
     def new
 
-      #redirect_by_role current_user if singin_in?
+      redirect_by_role current_user if signed_in?
 
     end
 
 
-    def redirect_by_role current_user
+    def create
+      user = User.authenticate(params[:session][:email], params[:session][:password])
 
-      if is_admin?
-        redirect_to '/'
+      if user.nil?
+        redirect_to signin_path
       else
-        redirect_to '/'
+        sign_in user
+        redirect_by_role user
       end
 
     end
+
+
+
+
+
+
+
+    private
+
+    def redirect_by_role user
+
+      p '11111111111111111111111'
+      p users_path
+
+      if user.admin?
+        redirect_to users_path
+      else
+        #redirect_to FinanceStar.signin_redirect_path
+      end
+
+    end
+
 
   end
 end

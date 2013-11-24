@@ -1,4 +1,57 @@
-/*
-  Place all the styles related to the matching controller here.
-  They will automatically be included in application.css.
-*/
+.auth-form {
+    width: 400px;
+    margin: 60px auto;
+}
+.auth-form form {
+    border-radius: 4px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.075);
+}
+.auth-form form label {
+    font-weight: bold
+}
+
+.auth-form form input[type='text'], .auth-form form input[type='password'] {
+    margin-top: 5px;
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+.auth-form form input.btn {
+    box-sizing: border-box;
+    outline: none;
+    display: block;
+}
+
+.auth-form-header {
+    position: relative;
+    padding: 10px;
+    margin: 0;
+    color: #fff;
+    text-shadow: 0 -1px 0 rgba(0,0,0,0.5);
+    background-color: #6c8393;
+    background-image: -moz-linear-gradient(#7f95a5, #6c8393);
+    background-image: -webkit-linear-gradient(#7f95a5, #6c8393);
+    background-image: linear-gradient(#7f95a5, #6c8393);
+    background-repeat: repeat-x;
+    border: 1px solid #6e8290;
+    border-bottom-color: #586873;
+    border-radius: 4px 4px 0 0;
+}
+
+.auth-form-header {
+    height: 34px;
+}
+.auth-form-header label {
+    font-size: 18px;
+}
+
+.auth-form-body {
+    padding: 20px;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-size: 14px;
+    background-color: #fff;
+    border: 1px solid #d8dee2;
+    border-top-color: white;
+    border-radius: 0 0 4px 4px;
+}

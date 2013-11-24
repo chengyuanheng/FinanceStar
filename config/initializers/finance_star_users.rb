@@ -1,3 +1,5 @@
+
+#FinanceStarUsers.signin_redirect_path = '/'
 FinanceStarUsers.BaseControllerClass = Class.new(ActionController::Base) do
 
   layout 'application'

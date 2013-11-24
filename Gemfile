@@ -59,6 +59,8 @@ gem 'will_paginate-bootstrap'
 gem 'will_paginate', '~> 3.0'
 
 
+gem 'protected_attributes'
+
 gem 'finance_star_users', :path => "./features/FinanceStarUsers"
 
 
