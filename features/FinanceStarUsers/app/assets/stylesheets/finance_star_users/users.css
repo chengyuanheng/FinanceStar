@@ -2,3 +2,21 @@
   Place all the styles related to the matching controller here.
   They will automatically be included in application.css.
 */
+.radio_horizontal_group {
+    margin-bottom: 10px;
+}
+
+.radio_horizontal_group .radio_item {
+    padding: 4px 0;
+    vertical-align:middle
+}
+
+.radio_horizontal_group .radio_item label {
+    vertical-align: middle;
+    display: inline;
+}
+
+.radio_horizontal_group .radio_item input {
+    vertical-align: middle;
+    margin: 0px;
+}

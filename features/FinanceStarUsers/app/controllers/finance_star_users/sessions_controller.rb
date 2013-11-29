@@ -22,6 +22,11 @@ module FinanceStarUsers
 
     end
 
+    def destroy
+      sign_out
+      redirect_to signin_path
+    end
+
 
 
 
