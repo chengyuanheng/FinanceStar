@@ -1,12 +1,11 @@
 module FinanceStarUsers
   class User < ActiveRecord::Base
 
-    #attr_accessible :id, :name, :email, :password, :phone
-    #validates :email, :format => {:with => /\A([^@\s]+)@((?:[-a-z0-9]+\.)+[a-z]{2,})\Z/i}
-    #validates :name, :email, :phone, :uniqueness => true
-    #validates :name, :email, :phone, :password, :presence => true
-    #
-    #validates_confirmation_of :password, :message => "should match"
+    attr_accessible :id, :name, :email, :password, :phone
+    validates :email, :format => {:with => /\A([^@\s]+)@((?:[-a-z0-9]+\.)+[a-z]{2,})\Z/i}
+    validates :name, :email, :phone, :uniqueness => true
+    validates :name, :email, :phone, :password, :presence => true
+
 
     def self.authenticate(email, submitted_password)
       user = find_by_email(email)
