@@ -16,6 +16,7 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" scope="PROVIDED" name="finance_management (v0.0.1, /home/joker/work/FinanceStar/features/FinanceManagement) [path][gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="finance_star_users (v0.0.1, /home/joker/work/FinanceStar/features/FinanceStarUsers) [path][gem]" level="application" />
   </component>
   <component name="RModuleSettingsStorage">

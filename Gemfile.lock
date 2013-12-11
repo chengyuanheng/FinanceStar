@@ -1,4 +1,10 @@
 PATH
+  remote: ./features/FinanceManagement
+  specs:
+    finance_management (0.0.1)
+      rails (~> 4.0.1)
+
+PATH
   remote: ./features/FinanceStarUsers
   specs:
     finance_star_users (0.0.1)
@@ -150,6 +156,7 @@ DEPENDENCIES
   bootstrap-sass
   coffee-rails (~> 4.0.0)
   factory_girl_rails
+  finance_management!
   finance_star_users!
   haml-rails
   jbuilder (~> 1.2)

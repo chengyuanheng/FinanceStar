@@ -3,10 +3,6 @@
 module FinanceStarUsers
   module SessionsHelper
 
-
-
-
-
     def sign_in(user)
       session[:user_id] = user.id
     end
@@ -36,6 +32,24 @@ module FinanceStarUsers
     end
 
 
+
+
+
+
+
+
+
+    def deny_access
+      redirect_to '/signin', :notice => "Please sign in to access this page."
+    end
+
+    def non_admin_authenticate
+      deny_access unless signed_in? && (not current_user.admin)
+    end
+
+    def admin_authenticate
+      deny_access unless is_admin?
+    end
 
 
 

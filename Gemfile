@@ -63,6 +63,4 @@ gem 'protected_attributes'
 
 gem 'finance_star_users', :path => "./features/FinanceStarUsers"
 
-
-
-
+gem 'finance_management', :path => "./features/FinanceManagement"

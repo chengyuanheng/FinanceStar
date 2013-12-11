@@ -28,22 +28,14 @@ module FinanceStarUsers
     end
 
 
-
-
-
-
-
     private
 
     def redirect_by_role user
 
-      p '11111111111111111111111'
-      p users_path
-
       if user.admin?
         redirect_to users_path
       else
-        #redirect_to FinanceStar.signin_redirect_path
+        redirect_to FinanceStarUsers.signin_redirect_path
       end
 
     end
