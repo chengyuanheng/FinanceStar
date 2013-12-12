@@ -5,21 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/features/FinanceManagement/app/views/layouts/finance_management/application.html.haml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/initializers/finance_management.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/FinanceStar.iml" afterPath="$PROJECT_DIR$/.idea/FinanceStar.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/initializers/finance_star_users.rb" afterPath="$PROJECT_DIR$/config/initializers/finance_star_users.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/FinanceStarUsers/lib/finance_star_users.rb" afterPath="$PROJECT_DIR$/features/FinanceStarUsers/lib/finance_star_users.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/FinanceStarUsers/app/controllers/finance_star_users/sessions_controller.rb" afterPath="$PROJECT_DIR$/features/FinanceStarUsers/app/controllers/finance_star_users/sessions_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/FinanceStarUsers/app/helpers/finance_star_users/sessions_helper.rb" afterPath="$PROJECT_DIR$/features/FinanceStarUsers/app/helpers/finance_star_users/sessions_helper.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/helpers/current_user_helper.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/FinanceManagement/app/controllers/finance_management/application_controller.rb" afterPath="$PROJECT_DIR$/features/FinanceManagement/app/controllers/finance_management/application_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/initializers/finance_management.rb" afterPath="$PROJECT_DIR$/config/initializers/finance_management.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/FinanceManagement/lib/finance_management.rb" afterPath="$PROJECT_DIR$/features/FinanceManagement/lib/finance_management.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/FinanceManagement/app/controllers/finance_management/home_pages_controller.rb" afterPath="$PROJECT_DIR$/features/FinanceManagement/app/controllers/finance_management/home_pages_controller.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="FinanceStar.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1386769564837" ignored="false" />
+    <file path="/Dummy.txt" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1386886387192" ignored="false" />
     <file path="/routes.rb" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1386686846938" ignored="false" />
     <file path="/Gemfile" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1386683203250" ignored="false" />
     <file path="/seeds.rb" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1384596668111" ignored="false" />
@@ -37,7 +32,7 @@
     <file path="$PROJECT_DIR$/../kehutong/server/features/moode_user_plugin/lib/moode_user_plugin.rb" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1386686155763" ignored="false" />
     <file path="$PROJECT_DIR$/../kehutong/server/features/moode_user_plugin/moode_user_plugin.gemspec" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1384761540560" ignored="false" />
     <file path="/moode_user_plugin.gemspec" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1384750630504" ignored="false" />
-    <file path="/application_controller.rb" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1386770093054" ignored="false" />
+    <file path="/application_controller.rb" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1386889042512" ignored="false" />
     <file path="$PROJECT_DIR$/../kehutong/server/app/views/shared/_header.html.haml" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1384819843397" ignored="false" />
     <file path="$PROJECT_DIR$/../kehutong/server/config/database.yml" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1386120460131" ignored="false" />
     <file path="$PROJECT_DIR$/../kehutong/server/features/CustomerService/app/models/customer_service/weixin_format.rb" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1384762909643" ignored="false" />
@@ -102,7 +97,7 @@
     <file path="$PROJECT_DIR$/../kehutong/server/log/development.log" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1384845964488" ignored="false" />
     <file path="$PROJECT_DIR$/../kehutong/server/log/test.log" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1384846136090" ignored="false" />
     <file path="/weixin_marketing_controller_spec.rb" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1384767755605" ignored="false" />
-    <file path="$PROJECT_DIR$/../kehutong/server/features/CustomerManagement/lib/customer_management.rb" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1384769847890" ignored="false" />
+    <file path="$PROJECT_DIR$/../kehutong/server/features/CustomerManagement/lib/customer_management.rb" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1386886931770" ignored="false" />
     <file path="$PROJECT_DIR$/../kehutong/server/features/moode_user_plugin/lib/generators/md_initializer/md_initializer_generator.rb" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1386771301041" ignored="false" />
     <file path="/_header.html.haml" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1386080052396" ignored="false" />
     <file path="$PROJECT_DIR$/../kehutong/server/config/initializers/moode_user_plugin.rb" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1386686323470" ignored="false" />
@@ -133,22 +128,27 @@
     <file path="$PROJECT_DIR$/../kehutong/server/features/moode_user_plugin/app/assets/stylesheets/moode_user_plugin/users.css" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1385717516371" ignored="false" />
     <file path="$PROJECT_DIR$/../kehutong/server/features/moode_user_plugin/config/routes.rb" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1385718774035" ignored="false" />
     <file path="/register_controller.rb" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1385721019917" ignored="false" />
-    <file path="/*.regexp" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1386717752462" ignored="false" />
+    <file path="/*.regexp" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1386889337931" ignored="false" />
     <file path="/style.css" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1386080083226" ignored="false" />
     <file path="$PROJECT_DIR$/../kehutong/server/features/CustomerManagement/spec/controllers/customer_management/send_sms_controller_spec.rb" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1386120364875" ignored="false" />
     <file path="/send_sms_controller_spec.rb" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1386120308729" ignored="false" />
     <file path="dbtable:/3e3c2fc/6b1e4bca-d053-4cf7-bc40-0a8580e7b14e/..customer_management_customer_operations" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1386120943130" ignored="false" />
     <file path="dbtable:/3e3c2fc/6b1e4bca-d053-4cf7-bc40-0a8580e7b14e/..sqlite_sequence" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1386121621218" ignored="false" />
     <file path="dbtable:/3e3c2fc/6b1e4bca-d053-4cf7-bc40-0a8580e7b14e/..schema_migrations" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1386121624081" ignored="false" />
-    <file path="/finance_management.rb" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1386773258935" ignored="false" />
+    <file path="/finance_management.rb" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1386889035203" ignored="false" />
     <file path="/index.html.erb" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1386714939403" ignored="false" />
     <file path="/index.html.haml" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1386714963897" ignored="false" />
     <file path="/new.html.haml" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1386715239629" ignored="false" />
     <file path="$PROJECT_DIR$/../kehutong/server/features/moode_user_plugin/app/helpers/moode_user_plugin/sessions_helper.rb" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1386717487964" ignored="false" />
     <file path="$PROJECT_DIR$/../kehutong/server/features/CustomerService/lib/customer_service.rb" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1386717618998" ignored="false" />
-    <file path="$PROJECT_DIR$/../kehutong/server/app/helpers/current_user_helper.rb" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1386717810528" ignored="false" />
+    <file path="$PROJECT_DIR$/../kehutong/server/app/helpers/current_user_helper.rb" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1386888552157" ignored="false" />
     <file path="$PROJECT_DIR$/../kehutong/server/features/CustomerManagement/lib/generators/customer_management/customer_management_generator.rb" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1386771331943" ignored="false" />
     <file path="$PROJECT_DIR$/../kehutong/server/config/initializers/customer_service.rb" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1386771923768" ignored="false" />
+    <file path="$PROJECT_DIR$/../kehutong/server/features/CustomerManagement/app/controllers/customer_management/application_controller.rb" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1386886848027" ignored="false" />
+    <file path="$USER_HOME$/.rvm/rubies/ruby-1.9.3-p286/lib/ruby/1.9.1/ostruct.rb" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1386886935009" ignored="false" />
+    <file path="$PROJECT_DIR$/../kehutong/server/features/moode_user_plugin/app/controllers/moode_user_plugin/application_controller.rb" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1386887605844" ignored="false" />
+    <file path="/home_pages_controller.rb" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1386887953109" ignored="false" />
+    <file path="/current_user_helper.rb" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1386888934868" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -175,19 +175,62 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="finance_star_users.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/features/FinanceStarUsers/lib/finance_star_users.rb">
+      <file leaf-file-name="finance_management.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/features/FinanceManagement/lib/finance_management.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="32" selection-start="94" selection-end="94" vertical-scroll-proportion="0.0">
+            <state line="8" column="85" selection-start="204" selection-end="204" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sessions_controller.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/features/FinanceStarUsers/app/controllers/finance_star_users/sessions_controller.rb">
+      <file leaf-file-name="cwx_logo.png" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/assets/images/cwx_logo.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_header.html.haml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/shared/_header.html.haml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="29" selection-start="319" selection-end="319" vertical-scroll-proportion="-4.25">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="9" selection-start="168" selection-end="168" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.css" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="26" selection-start="545" selection-end="545" vertical-scroll-proportion="0.3515625">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="layout.css.scss" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/layout.css.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="current_user_helper.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/helpers/current_user_helper.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="30" column="60" selection-start="563" selection-end="563" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -196,7 +239,16 @@
       <file leaf-file-name="home_pages_controller.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/features/FinanceManagement/app/controllers/finance_management/home_pages_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="5" column="4" selection-start="146" selection-end="146" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application_controller.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/features/FinanceStarUsers/app/controllers/finance_star_users/application_controller.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="17" selection-start="173" selection-end="173" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -205,61 +257,7 @@
       <file leaf-file-name="application_controller.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/features/FinanceManagement/app/controllers/finance_management/application_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="47" selection-start="150" selection-end="150" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="boot.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/boot.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="wrap_parameters.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/initializers/wrap_parameters.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="finance_management.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/initializers/finance_management.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="0" selection-start="1" selection-end="50" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application_controller.rb" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/features/FinanceStarUsers/app/controllers/finance_star_users/application_controller.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="25" selection-start="162" selection-end="162" vertical-scroll-proportion="0.13711151">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="finance_star_users.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/initializers/finance_star_users.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="60" selection-start="168" selection-end="168" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="finance_management.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/features/FinanceManagement/lib/finance_management.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="57" selection-start="112" selection-end="112" vertical-scroll-proportion="0.0">
+            <state line="2" column="40" selection-start="147" selection-end="147" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -283,22 +281,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/features/FinanceManagement/app/views/finance_management/home_pages/new.html.haml" />
-        <option value="$PROJECT_DIR$/features/FinanceStarUsers/app/views/finance_star_users/users/show.html.haml" />
-        <option value="$PROJECT_DIR$/features/FinanceManagement/app/views/finance_management/home_pages/show.html.haml" />
-        <option value="$PROJECT_DIR$/features/FinanceStarUsers/app/views/finance_star_users/users/edit.html.haml" />
-        <option value="$PROJECT_DIR$/features/FinanceManagement/app/views/finance_management/home_pages/edit.html.haml" />
         <option value="$PROJECT_DIR$/features/FinanceManagement/app/views/finance_management/home_pages/_form.html.haml" />
         <option value="$PROJECT_DIR$/features/FinanceManagement/app/views/layouts/finance_management/application.html.haml" />
         <option value="$PROJECT_DIR$/features/FinanceStarUsers/app/helpers/finance_star_users/sessions_helper.rb" />
         <option value="$PROJECT_DIR$/features/FinanceStarUsers/app/controllers/finance_star_users/application_controller.rb" />
         <option value="$PROJECT_DIR$/features/FinanceStarUsers/app/views/layouts/finance_star_users/application.html.haml" />
         <option value="$PROJECT_DIR$/app/views/shared/_header.html.haml" />
-        <option value="$PROJECT_DIR$/features/FinanceStarUsers/lib/finance_star_users.rb" />
         <option value="$PROJECT_DIR$/config/initializers/finance_star_users.rb" />
-        <option value="$PROJECT_DIR$/features/FinanceManagement/lib/finance_management.rb" />
+        <option value="$PROJECT_DIR$/features/FinanceStarUsers/lib/finance_star_users.rb" />
+        <option value="$PROJECT_DIR$/features/FinanceStarUsers/app/controllers/finance_star_users/sessions_controller.rb" />
+        <option value="$PROJECT_DIR$/features/FinanceManagement/app/controllers/finance_management/home_pages_controller.rb" />
         <option value="$PROJECT_DIR$/config/initializers/finance_management.rb" />
+        <option value="$PROJECT_DIR$/app/helpers/current_user_helper.rb" />
         <option value="$PROJECT_DIR$/features/FinanceManagement/app/controllers/finance_management/application_controller.rb" />
+        <option value="$PROJECT_DIR$/features/FinanceManagement/lib/finance_management.rb" />
+        <option value="$PROJECT_DIR$/app/assets/stylesheets/style.css" />
+        <option value="$PROJECT_DIR$/app/assets/stylesheets/application.css" />
       </list>
     </option>
   </component>
@@ -332,6 +330,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="RailsProjectView" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -393,200 +392,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="features" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FinanceStarUsers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FinanceStar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FinanceStar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="features" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FinanceStarUsers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FinanceStar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FinanceStar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="features" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FinanceStarUsers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tasks" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FinanceStar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FinanceStar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="features" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FinanceStarUsers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="finance_star_users" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FinanceStar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FinanceStar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="features" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FinanceStarUsers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="layouts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="finance_star_users" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FinanceStar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FinanceStar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="features" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FinanceStarUsers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="finance_star_users" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FinanceStar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FinanceStar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="features" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FinanceStarUsers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FinanceStar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FinanceStar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="features" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FinanceStarUsers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controllers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="finance_star_users" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -767,12 +572,22 @@
               <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
+              <option name="myItemId" value="FinanceStar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FinanceStar" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="layouts" />
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="helpers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -789,10 +604,57 @@
               <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="stylesheets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FinanceStar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FinanceStar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FinanceStar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FinanceStar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="images" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="RailsProjectView" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -805,11 +667,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/helpers" />
       <recent name="$PROJECT_DIR$/features/FinanceManagement/app/views/layouts/finance_management" />
       <recent name="$PROJECT_DIR$/app/assets/images" />
       <recent name="$PROJECT_DIR$/features/FinanceStarUsers/app/views/finance_star_users/register" />
       <recent name="$PROJECT_DIR$/app/assets/stylesheets" />
-      <recent name="$PROJECT_DIR$/app/helpers" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/features" />
@@ -1076,9 +938,10 @@
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.01217656" sideWeight="0.671521" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32686085" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2260274" sideWeight="0.67313915" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26560122" sideWeight="0.671521" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27016744" sideWeight="0.67313915" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32847896" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -1087,7 +950,6 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32741934" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32847896" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -1157,114 +1019,112 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/features/FinanceStarUsers/lib/finance_star_users/version.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/shared/_header.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="12" selection-start="356" selection-end="356" vertical-scroll-proportion="-5.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/FinanceStarUsers/app/helpers/finance_star_users/sessions_helper.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="8" selection-start="139" selection-end="139" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/FinanceStarUsers/lib/tasks/finance_star_users_tasks.rake">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/application.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/boot.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/initializers/wrap_parameters.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/FinanceManagement/app/controllers/finance_management/home_pages_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/features/FinanceStarUsers/app/controllers/finance_star_users/sessions_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="45" column="0" selection-start="716" selection-end="716" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/features/FinanceStarUsers/lib/finance_star_users.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="32" selection-start="94" selection-end="94" vertical-scroll-proportion="0.0">
+        <state line="9" column="21" selection-start="166" selection-end="166" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/initializers/finance_star_users.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="60" selection-start="168" selection-end="168" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/features/FinanceManagement/lib/finance_management.rb">
+    <entry file="file://$PROJECT_DIR$/app/helpers/application_helper.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="57" selection-start="112" selection-end="112" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/initializers/finance_management.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="1" selection-end="50" vertical-scroll-proportion="0.0">
+        <state line="2" column="23" selection-start="113" selection-end="113" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/features/FinanceManagement/app/controllers/finance_management/application_controller.rb">
+    <entry file="file://$PROJECT_DIR$/features/FinanceStarUsers/app/helpers/finance_star_users/sessions_helper.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="47" selection-start="150" selection-end="150" vertical-scroll-proportion="0.0">
+        <state line="2" column="2" selection-start="19" selection-end="19" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/helpers/current_user_helper.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="60" selection-start="563" selection-end="563" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/features/FinanceStarUsers/app/controllers/finance_star_users/application_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="25" selection-start="162" selection-end="162" vertical-scroll-proportion="0.13711151">
+        <state line="8" column="17" selection-start="173" selection-end="173" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/FinanceManagement/app/controllers/finance_management/home_pages_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="4" selection-start="146" selection-end="146" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/FinanceManagement/app/controllers/finance_management/application_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="40" selection-start="147" selection-end="147" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/FinanceManagement/lib/finance_management.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="85" selection-start="204" selection-end="204" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/images/cwx_logo.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/shared/_header.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="29" selection-start="319" selection-end="319" vertical-scroll-proportion="-4.25">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/layout.css.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="9" selection-start="168" selection-end="168" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="26" selection-start="545" selection-end="545" vertical-scroll-proportion="0.3515625">
           <folding />
         </state>
       </provider>

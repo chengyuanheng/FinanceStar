@@ -2,6 +2,7 @@ require_dependency "finance_management/application_controller"
 
 module FinanceManagement
   class HomePagesController < ApplicationController
+
     before_action :set_home_page, only: [:show, :edit, :update, :destroy]
 
     # GET /home_pages

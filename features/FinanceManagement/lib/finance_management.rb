@@ -6,4 +6,4 @@ module FinanceManagementDependencies
 
 end
 
-FinanceManagementDependencies.BaseControllerClass = ActionController::Base
+FinanceManagementDependencies.BaseControllerClass = Class.new(ActionController::Base)
