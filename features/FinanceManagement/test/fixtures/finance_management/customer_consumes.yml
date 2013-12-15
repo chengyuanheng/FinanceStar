@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  customer_id: MyString
+  consume: MyString
+  consume_type: MyString
+  consume_value: MyString
+
+two:
+  customer_id: MyString
+  consume: MyString
+  consume_type: MyString
+  consume_value: MyString

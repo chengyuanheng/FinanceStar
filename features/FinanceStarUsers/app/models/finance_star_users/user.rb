@@ -1,7 +1,7 @@
 module FinanceStarUsers
   class User < ActiveRecord::Base
 
-    attr_accessible :id, :name, :email, :password, :phone
+    attr_accessible :id, :name, :email, :password, :phone, :admin
     validates :email, :format => {:with => /\A([^@\s]+)@((?:[-a-z0-9]+\.)+[a-z]{2,})\Z/i}
     validates :name, :email, :phone, :uniqueness => true
     validates :name, :email, :phone, :password, :presence => true

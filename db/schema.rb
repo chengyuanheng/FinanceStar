@@ -11,14 +11,40 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20131116100208) do
+ActiveRecord::Schema.define(version: 20131215221356) do
+
+  create_table "finance_management_customer_consumes", force: true do |t|
+    t.string   "customer_id"
+    t.string   "consume"
+    t.string   "consume_type"
+    t.string   "consume_value"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "finance_management_customers", force: true do |t|
+    t.string   "user_id"
+    t.string   "name"
+    t.string   "phone"
+    t.string   "email"
+    t.string   "original_funds"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "finance_star_users_user_verify_codes", force: true do |t|
+    t.string   "user_id"
+    t.string   "code"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
 
   create_table "finance_star_users_users", force: true do |t|
     t.text     "name"
     t.text     "email"
     t.text     "password"
     t.text     "phone"
-    t.integer  "admin"
+    t.boolean  "admin",      default: false
     t.datetime "created_at"
     t.datetime "updated_at"
   end

@@ -5,7 +5,7 @@ class CreateFinanceStarUsersUsers < ActiveRecord::Migration
       t.text :email
       t.text :password
       t.text :phone
-      t.integer :admin
+      t.boolean :admin, :default => false
 
       t.timestamps
     end

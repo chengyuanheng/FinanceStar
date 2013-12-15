@@ -18,3 +18,9 @@ tmp
 .log
 .xml
 
+/log/*.log
+/tmp
+/file
+/config/database.yml
+public/uploads/
+
