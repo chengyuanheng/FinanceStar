@@ -25,10 +25,12 @@ module FinanceStarUsers
     # POST /users
     def create
       @user = User.new(user_params)
+      @user.save
+      verify_code = generate_verify_code @user
 
 
       if @user.save
-        MailerService.welcome_email(@user).deliver
+        MailerService.welcome_email(@user,verify_code).deliver
         redirect_to @user, notice: 'User was successfully created.'
       else
         render action: 'new'
@@ -60,5 +62,16 @@ module FinanceStarUsers
       def user_params
         params.require(:user).permit(:name, :email, :password, :phone, :admin)
       end
+
+      def generate_verify_code user
+        verify_code = (rand(899999)+100000).to_s
+        user_verify_code = FinanceStarUsers::UserVerifyCode.find_by(user_id:user.id)
+        if user_verify_code.nil?
+          user_verify_code = FinanceStarUsers::UserVerifyCode.create(user_id:user.id,code:verify_code)
+        end
+        user_verify_code.code
+
+      end
+
   end
 end

@@ -1,7 +1,10 @@
 %h1 Welcome to example.com, #{@user.name}
 %p
-  You have successfully signed up to example.com,
+  You have successfully signed up to example.com
+%p
   your login email is: #{@user.email}
+%p
+  your verify code is: #{@verify_code}
   %br
 %p
   To login to the site, just follow this link: #{@url}

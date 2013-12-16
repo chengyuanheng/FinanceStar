@@ -35,15 +35,16 @@ ActiveRecord::Schema.define(version: 20131215221356) do
   create_table "finance_star_users_user_verify_codes", force: true do |t|
     t.string   "user_id"
     t.string   "code"
+    t.boolean  "has_validate", default: false
     t.datetime "created_at"
     t.datetime "updated_at"
   end
 
   create_table "finance_star_users_users", force: true do |t|
-    t.text     "name"
-    t.text     "email"
-    t.text     "password"
-    t.text     "phone"
+    t.string   "name"
+    t.string   "email"
+    t.string   "password"
+    t.string   "phone"
     t.boolean  "admin",      default: false
     t.datetime "created_at"
     t.datetime "updated_at"
