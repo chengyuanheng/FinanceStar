@@ -1,0 +1,17 @@
+%div(class="modal fade" id="add_new_customer" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true")
+  %div(class="modal-dialog")
+    %div(class="modal-content")
+      %div(class="modal-header")
+        %button(type="button" class="close" data-dismiss="modal" aria-hidden="true") &times
+        %h4(class="modal-title" id="myModalLabel") 添加新客户
+      %div(class="modal-body")
+        -#= form_for :new_customer, :url => {:action => "add_new_customer"}, :http => {:method => "post"} do |f|
+        -#  %table
+        -#    %tr
+        -#      %td(algin="center")姓名
+        -#      %td(algin="center")手机
+        -#      %td(algin="center")邮箱
+        -#
+        -#  %div(class="modal-footer" )
+        -#    %input(type="submit" class="btn btn-primary btn-lg" value="保存")
+        -#    %input(type="button" class="btn btn-default btn-lg" data-dismiss="modal" value="取消" )

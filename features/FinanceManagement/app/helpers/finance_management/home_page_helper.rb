@@ -1,4 +1,4 @@
 module FinanceManagement
-  module HomePagesHelper
+  module HomePageHelper
   end
 end

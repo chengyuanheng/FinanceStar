@@ -1,7 +1,7 @@
 require 'test_helper'
 
 module FinanceManagement
-  class HomePageTest < ActiveSupport::TestCase
+  class HomePageControllerTest < ActionController::TestCase
     # test "the truth" do
     #   assert true
     # end

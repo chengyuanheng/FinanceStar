@@ -1,6 +1,6 @@
 require 'test_helper'
 
 module FinanceManagement
-  class HomePagesHelperTest < ActionView::TestCase
+  class MyFinanceHelperTest < ActionView::TestCase
   end
 end

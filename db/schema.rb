@@ -41,11 +41,11 @@ ActiveRecord::Schema.define(version: 20131215221356) do
   end
 
   create_table "finance_star_users_users", force: true do |t|
-    t.string   "name"
-    t.string   "email"
-    t.string   "password"
-    t.string   "phone"
-    t.boolean  "admin",      default: false
+    t.text     "name"
+    t.text     "email"
+    t.text     "password"
+    t.text     "phone"
+    t.integer  "admin"
     t.datetime "created_at"
     t.datetime "updated_at"
   end

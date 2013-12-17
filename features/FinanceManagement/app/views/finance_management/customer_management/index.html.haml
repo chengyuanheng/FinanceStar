@@ -1,0 +1,44 @@
+%p
+  客户管理 包括客户的新建 编辑 删除
+
+
+.row
+  %div(class="col-md-8" )
+    %div
+      %a(href="" class="btn btn-success btn-lg btn-default btn-default-alt" data-toggle="modal" data-target="#add_new_customer")
+        %i.icon-user-add
+        新建客户
+%hr
+
+
+%table.table.table-hover
+  %thead
+    %tr
+      %td(algin="center")姓名
+      %td(algin="center")电话
+      %td(algin="center")邮箱
+      %td(algin="center")初始资金
+      %td(algin="center")创建时间
+      %td
+      %td
+  %tbody
+    %tr
+      %td
+      %td
+      %td
+      %td
+      %td
+      %td
+        %a(href="" class="btn btn-xs btn-primary" data-toggle="modal" data-target="")
+          %i.icon-pencil
+            编辑
+        %a(href="" class="btn btn-xs btn-danger" data-toggle="modal" data-target="")
+          %i.icon-remove
+            删除
+
+
+=render "add_new_customer"
+
+
+
+
