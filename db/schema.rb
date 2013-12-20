@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20131215221356) do
+ActiveRecord::Schema.define(version: 20131219233127) do
 
   create_table "finance_management_customer_consumes", force: true do |t|
     t.string   "customer_id"
@@ -28,6 +28,14 @@ ActiveRecord::Schema.define(version: 20131215221356) do
     t.string   "phone"
     t.string   "email"
     t.string   "original_funds"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "finance_management_user_defined_consume_types", force: true do |t|
+    t.string   "user_id"
+    t.string   "consume"
+    t.string   "consume_type"
     t.datetime "created_at"
     t.datetime "updated_at"
   end

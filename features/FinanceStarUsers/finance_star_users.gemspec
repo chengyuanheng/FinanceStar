@@ -25,9 +25,15 @@ Gem::Specification.new do |s|
   s.add_development_dependency 'haml-rails', '~> 0.3.5'
 
   s.add_development_dependency "rspec-rails"
+
   s.add_development_dependency "factory_girl_rails"
 
   s.add_dependency "protected_attributes"
+
+  s.add_dependency 'will_paginate-bootstrap'
+
+  s.add_dependency 'will_paginate', '~> 3.0'
+
 
 
 end

@@ -5,6 +5,8 @@ PATH
       haml (~> 3.1.7)
       protected_attributes
       rails (~> 4.0.1)
+      will_paginate (~> 3.0)
+      will_paginate-bootstrap
 
 GEM
   remote: https://rubygems.org/
@@ -106,6 +108,9 @@ GEM
       polyglot
       polyglot (>= 0.3.1)
     tzinfo (0.3.38)
+    will_paginate (3.0.5)
+    will_paginate-bootstrap (1.0.0)
+      will_paginate (>= 3.0.3)
 
 PLATFORMS
   ruby

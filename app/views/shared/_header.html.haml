@@ -8,17 +8,18 @@
       %a(class="navbar-brand cwx-logo" href="/" ) 财务星
     -if signed_in?
       %div(class="navbar-collapse collapse" )
-        %ul(class="nav navbar-nav")
-          %li
-            %a(href="javascript:{window.location.href = '/finance_management/index'}" ) 首页
-          %li
-            %a(href="javascript:{window.location.href = '/finance_management/customer_management/index'}" ) 用户管理
-          %li
-            %a(href="javascript:{window.location.href = '/finance_management/my_finance/index'}") 财务管理
-          %li
-            %a(href="javascript:{window.location.href = '#'}" )统计信息
-          %li
-            %a(href="javascript:{window.location.href = '#'}" ) Wap系统
+        -if !is_admin?
+          %ul(class="nav navbar-nav")
+            %li
+              %a(href="javascript:{window.location.href = '/finance_management/index'}") 首页
+            %li
+              %a(href="javascript:{window.location.href = '/finance_management/customer_management/index'}") 客户管理
+            %li
+              %a(href="javascript:{window.location.href = '/finance_management/my_finance/index'}") 财务管理
+            %li
+              %a(href="javascript:{window.location.href = '/finance_management/finance_statistics/index'}") 信息统计
+            %li
+              %a(href="javascript:{window.location.href = '#'}" ) Wap系统
 
         %ul(class="nav navbar-nav navbar-right" )
           %li(class="dropdown" )
@@ -27,14 +28,15 @@
                 你好，#{current_user.name}
               %b(class="caret")
             %ul(class="dropdown-menu" )
-              %li
-                %a(href="javascript:{window.location.href = '#'}" )用户认证
-              %li.divider
-              %li
-                %a(href="#")个人信息
-              %li.divider
-              %li
-                %a(href="#" )密码修改
-              %li.divider
+              -if !is_admin?
+                %li
+                  %a(href="javascript:{window.location.href = '#'}" )用户认证
+                %li.divider
+                %li
+                  %a(href="#")个人信息
+                %li.divider
+                %li
+                  %a(href="#" )密码修改
+                %li.divider
               %li
                 %a(href="javascript:{window.location.href = '/signout'}" ) 退出

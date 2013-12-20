@@ -1,38 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/../kehutong/server/features/CustomerService/app/models/customer_service/weixin_reply.rb" description="elsif service_name == 'marketing_bind'" line="23" />
-  </component>
   <component name="ChangeListManager">
     <list default="true" id="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/features/FinanceManagement/app/views/finance_management/customer_management/_add_new_customer.html.haml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/features/FinanceManagement/app/views/finance_management/customer_management/index.html.haml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/features/FinanceManagement/app/views/finance_management/home_page/index.html.haml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/features/FinanceManagement/app/views/finance_management/my_finance/index.html.haml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/features/FinanceManagement/app/assets/javascripts/finance_management/home_pages.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/features/FinanceManagement/app/assets/stylesheets/finance_management/home_pages.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/features/FinanceManagement/app/controllers/finance_management/home_pages_controller.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/features/FinanceManagement/app/helpers/finance_management/home_pages_helper.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/features/FinanceManagement/app/models/finance_management/home_page.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/features/FinanceManagement/app/views/finance_management/home_pages/_form.html.haml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/features/FinanceManagement/app/views/finance_management/home_pages/edit.html.haml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/features/FinanceManagement/app/views/finance_management/home_pages/index.html.haml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/features/FinanceManagement/app/views/finance_management/home_pages/new.html.haml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/features/FinanceManagement/app/views/finance_management/home_pages/show.html.haml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/features/FinanceManagement/test/controllers/finance_management/home_pages_controller_test.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/features/FinanceManagement/test/fixtures/finance_management/home_pages.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/features/FinanceManagement/test/helpers/finance_management/home_pages_helper_test.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/features/FinanceManagement/test/models/finance_management/home_page_test.rb" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/font/glyphicons-halflings-regular.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/font/glyphicons-halflings-regular.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/font/glyphicons-halflings-regular.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/font/glyphicons-halflings-regular.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/font/glyphicons-halflings-regular.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/font/glyphicons-halflings-regular.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/font/icomoon.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/font/icomoon.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/font/icomoon.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/font/icomoon.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/font/icomoon.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/font/icomoon.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/features/FinanceManagement/app/views/finance_management/my_finance/_add_new_finance_type.html.haml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/features/FinanceManagement/app/views/finance_management/my_finance/_header.html.haml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/font/glyphicons-halflings-regular.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/font/glyphicons-halflings-regular.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/features/FinanceManagement/spec/controllers/home_page_controller_spec.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/font/icomoon.dev.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/font/icomoon.dev.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/font/icomoon.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/font/icomoon.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/features/FinanceManagement/app/views/finance_management/finance_statistics/index.html.haml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/features/FinanceManagement/spec/spec_helper.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/FinanceManagement/db/migrate/20131215042002_create_finance_management_customers.rb" afterPath="$PROJECT_DIR$/features/FinanceManagement/db/migrate/20131215042002_create_finance_management_customers.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/migrate/20131215042219_create_finance_management_customers.finance_management.rb" afterPath="$PROJECT_DIR$/db/migrate/20131215042219_create_finance_management_customers.finance_management.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/FinanceStarUsers/Gemfile.lock" afterPath="$PROJECT_DIR$/features/FinanceStarUsers/Gemfile.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/FinanceManagement/Gemfile" afterPath="$PROJECT_DIR$/features/FinanceManagement/Gemfile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/FinanceManagement/app/views/finance_management/customer_management/_add_new_customer.html.haml" afterPath="$PROJECT_DIR$/features/FinanceManagement/app/views/finance_management/customer_management/_add_new_customer.html.haml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/shared/_header.html.haml" afterPath="$PROJECT_DIR$/app/views/shared/_header.html.haml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/bootstrap.css" afterPath="$PROJECT_DIR$/app/assets/stylesheets/bootstrap.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/FinanceManagement/app/models/finance_management/customer.rb" afterPath="$PROJECT_DIR$/features/FinanceManagement/app/models/finance_management/customer.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/FinanceManagement/app/controllers/finance_management/customer_management_controller.rb" afterPath="$PROJECT_DIR$/features/FinanceManagement/app/controllers/finance_management/customer_management_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/FinanceManagement/app/helpers/finance_management/customer_management_helper.rb" afterPath="$PROJECT_DIR$/features/FinanceManagement/app/helpers/finance_management/customer_management_helper.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/development.sqlite3" afterPath="$PROJECT_DIR$/db/development.sqlite3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/FinanceManagement/finance_management.gemspec" afterPath="$PROJECT_DIR$/features/FinanceManagement/finance_management.gemspec" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/FinanceStarUsers/finance_star_users.gemspec" afterPath="$PROJECT_DIR$/features/FinanceStarUsers/finance_star_users.gemspec" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/FinanceManagement/app/views/finance_management/customer_management/index.html.haml" afterPath="$PROJECT_DIR$/features/FinanceManagement/app/views/finance_management/customer_management/index.html.haml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/FinanceManagement/app/views/finance_management/my_finance/index.html.haml" afterPath="$PROJECT_DIR$/features/FinanceManagement/app/views/finance_management/my_finance/index.html.haml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/FinanceStarUsers/app/views/finance_star_users/users/index.html.haml" afterPath="$PROJECT_DIR$/features/FinanceStarUsers/app/views/finance_star_users/users/index.html.haml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/FinanceManagement/app/controllers/finance_management/my_finance_controller.rb" afterPath="$PROJECT_DIR$/features/FinanceManagement/app/controllers/finance_management/my_finance_controller.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/FinanceManagement/config/routes.rb" afterPath="$PROJECT_DIR$/features/FinanceManagement/config/routes.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/schema.rb" afterPath="$PROJECT_DIR$/db/schema.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/style.css" afterPath="$PROJECT_DIR$/app/assets/stylesheets/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/test.sqlite3" afterPath="$PROJECT_DIR$/db/test.sqlite3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/FinanceStarUsers/app/controllers/finance_star_users/users_controller.rb" afterPath="$PROJECT_DIR$/features/FinanceStarUsers/app/controllers/finance_star_users/users_controller.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="FinanceStar.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1387257594579" ignored="false" />
-    <file path="/routes.rb" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1387260838187" ignored="false" />
+    <file path="/Dummy.txt" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1387530318154" ignored="false" />
+    <file path="/routes.rb" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1387467469058" ignored="false" />
     <file path="/Gemfile" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1386683203250" ignored="false" />
     <file path="/seeds.rb" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1387096290540" ignored="false" />
     <file path="dbtable:/7706b169/2bb30910-22ce-485b-b356-3619983ef851/..moode_user_plugin_users" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1384599109581" ignored="false" />
@@ -51,9 +72,9 @@
     <file path="/moode_user_plugin.gemspec" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1384750630504" ignored="false" />
     <file path="/application_controller.rb" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1386889042512" ignored="false" />
     <file path="$PROJECT_DIR$/../kehutong/server/app/views/shared/_header.html.haml" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1384819843397" ignored="false" />
-    <file path="$PROJECT_DIR$/../kehutong/server/config/database.yml" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1387172027058" ignored="false" />
-    <file path="$PROJECT_DIR$/../kehutong/server/features/CustomerService/app/models/customer_service/weixin_format.rb" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1387171470054" ignored="false" />
-    <file path="/weixin_format.rb" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1387171446552" ignored="false" />
+    <file path="$PROJECT_DIR$/../kehutong/server/config/database.yml" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1387521049660" ignored="false" />
+    <file path="$PROJECT_DIR$/../kehutong/server/features/CustomerService/app/models/customer_service/weixin_format.rb" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1387509215420" ignored="false" />
+    <file path="/weixin_format.rb" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1387445041773" ignored="false" />
     <file path="$PROJECT_DIR$/../kehutong/server/features/CustomerService/spec/controllers/weixin_marketing_controller_spec.rb" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1384767755606" ignored="false" />
     <file path="$PROJECT_DIR$/../kehutong/server/features/CustomerService/app/controllers/customer_service/weixin_marketing_controller.rb" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1386900079869" ignored="false" />
     <file path="$PROJECT_DIR$/../kehutong/server/features/moode_user_plugin/app/models/moode_user_plugin/user.rb" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1384757228814" ignored="false" />
@@ -61,22 +82,22 @@
     <file path="/a.dummy" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1385278971882" ignored="false" />
     <file path="$PROJECT_DIR$/../kehutong/server/features/moode_user_plugin/app/controllers/moode_user_plugin/account_api_controller.rb" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1384762932783" ignored="false" />
     <file path="/account_api_controller.rb" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1384762932783" ignored="false" />
-    <file path="$PROJECT_DIR$/../kehutong/server/features/CustomerService/app/controllers/customer_service/show_service_controller.rb" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1384765248454" ignored="false" />
-    <file path="$PROJECT_DIR$/../kehutong/server/features/CustomerService/spec/controllers/show_service_controller_spec.rb" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1384844715350" ignored="false" />
-    <file path="/show_service_controller_spec.rb" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1384766727958" ignored="false" />
+    <file path="$PROJECT_DIR$/../kehutong/server/features/CustomerService/app/controllers/customer_service/show_service_controller.rb" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1387509055761" ignored="false" />
+    <file path="$PROJECT_DIR$/../kehutong/server/features/CustomerService/spec/controllers/show_service_controller_spec.rb" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1387439312010" ignored="false" />
+    <file path="/show_service_controller_spec.rb" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1387439300322" ignored="false" />
     <file path="/sessions_controller.rb" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1386686532965" ignored="false" />
-    <file path="$PROJECT_DIR$/../kehutong/server/features/CustomerService/app/views/customer_service/show_service/index.html.haml" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1384761126276" ignored="false" />
-    <file path="$PROJECT_DIR$/../kehutong/server/features/CustomerService/app/views/customer_service/weixin_marketing/index.html.haml" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1384761126276" ignored="false" />
+    <file path="$PROJECT_DIR$/../kehutong/server/features/CustomerService/app/views/customer_service/show_service/index.html.haml" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1387521030847" ignored="false" />
+    <file path="$PROJECT_DIR$/../kehutong/server/features/CustomerService/app/views/customer_service/weixin_marketing/index.html.haml" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1387509957251" ignored="false" />
     <file path="$PROJECT_DIR$/../kehutong/server/features/CustomerManagement/app/views/customer_management/invitation_mailer/send_invitation_mail.html.haml" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1384761540559" ignored="false" />
-    <file path="$PROJECT_DIR$/../kehutong/server/app/assets/stylesheets/bootstrap.css" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1384816521579" ignored="false" />
+    <file path="$PROJECT_DIR$/../kehutong/server/app/assets/stylesheets/bootstrap.css" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1387430964479" ignored="false" />
     <file path="$PROJECT_DIR$/../kehutong/server/public/assets/weixin_local/application-e6ce801ebde90bc803c724ebfc0e4a3a.js" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1384761540559" ignored="false" />
     <file path="$PROJECT_DIR$/../kehutong/server/config/environment.rb" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1384761540559" ignored="false" />
     <file path="$PROJECT_DIR$/../kehutong/server/config/routes.rb" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1384761540559" ignored="false" />
-    <file path="$PROJECT_DIR$/../kehutong/server/regression_testing.md" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1384761540559" ignored="false" />
+    <file path="$PROJECT_DIR$/../kehutong/server/regression_testing.md" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1387511662873" ignored="false" />
     <file path="$PROJECT_DIR$/../kehutong/server/features/moode_user_plugin/app/controllers/moode_user_plugin/business_statistics_controller.rb" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1384761540559" ignored="false" />
     <file path="$PROJECT_DIR$/../kehutong/server/config/boot.rb" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1384761540559" ignored="false" />
     <file path="$PROJECT_DIR$/../kehutong/server/config/sms_config.yml" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1384761540559" ignored="false" />
-    <file path="$PROJECT_DIR$/../kehutong/server/features/CustomerService/spec/models/weixin_format_spec.rb" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1387178308326" ignored="false" />
+    <file path="$PROJECT_DIR$/../kehutong/server/features/CustomerService/spec/models/weixin_format_spec.rb" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1387263559510" ignored="false" />
     <file path="$PROJECT_DIR$/../kehutong/server/features/CustomerService/spec/models/weixin_reply_spec.rb" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1384761540559" ignored="false" />
     <file path="$PROJECT_DIR$/../kehutong/server/config/application.rb" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1384761540559" ignored="false" />
     <file path="$PROJECT_DIR$/../kehutong/server/features/moode_user_plugin/app/models/moode_user_plugin/user_feature.rb" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1384761540559" ignored="false" />
@@ -94,48 +115,48 @@
     <file path="$PROJECT_DIR$/../kehutong/server/features/CustomerService/app/models/customer_service/weixin_token.rb" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1384761540560" ignored="false" />
     <file path="$PROJECT_DIR$/../kehutong/server/features/CustomerService/app/models/customer_service/service_analytics.rb" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1384761540560" ignored="false" />
     <file path="$PROJECT_DIR$/../kehutong/server/db/seeds.rb" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1384761540560" ignored="false" />
-    <file path="$PROJECT_DIR$/../kehutong/server/features/CustomerService/app/models/customer_service/service.rb" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1384761540560" ignored="false" />
+    <file path="$PROJECT_DIR$/../kehutong/server/features/CustomerService/app/models/customer_service/service.rb" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1387271792221" ignored="false" />
     <file path="$PROJECT_DIR$/../kehutong/server/features/CustomerService/app/controllers/customer_service/reply_weixin_controller.rb" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1384761540560" ignored="false" />
     <file path="$PROJECT_DIR$/../kehutong/server/features/CustomerService/app/models/customer_service/two_dimensional_code.rb" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1387168495635" ignored="false" />
     <file path="$PROJECT_DIR$/../kehutong/server/features/moode_user_plugin/app/controllers/moode_user_plugin/verify_codes_controller.rb" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1384761540560" ignored="false" />
     <file path="$PROJECT_DIR$/../kehutong/server/features/CustomerService/app/controllers/customer_service/application_controller.rb" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1386717375217" ignored="false" />
     <file path="$PROJECT_DIR$/../kehutong/server/features/CustomerService/app/controllers/customer_service/two_dimensional_code_controller.rb" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1387169179943" ignored="false" />
     <file path="$PROJECT_DIR$/../kehutong/server/db/migrate/20130923041340_change_phone_to_string.moode_user_plugin.rb" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1384761540560" ignored="false" />
-    <file path="$PROJECT_DIR$/../kehutong/server/features/CustomerManagement/app/controllers/customer_management/update_excel_controller.rb" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1387163316014" ignored="false" />
+    <file path="$PROJECT_DIR$/../kehutong/server/features/CustomerManagement/app/controllers/customer_management/update_excel_controller.rb" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1387509624775" ignored="false" />
     <file path="$PROJECT_DIR$/../kehutong/server/features/moode_user_plugin/app/controllers/moode_user_plugin/register_controller.rb" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1384761540560" ignored="false" />
     <file path="$PROJECT_DIR$/../kehutong/server/features/CustomerManagement/app/controllers/customer_management/home_page_controller.rb" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1384761540560" ignored="false" />
     <file path="$PROJECT_DIR$/../kehutong/server/features/CustomerService/app/models/customer_service/weixin_verify_code.rb" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1384761540560" ignored="false" />
-    <file path="$PROJECT_DIR$/../kehutong/server/features/CustomerManagement/app/controllers/customer_management/send_sms_controller.rb" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1387149229939" ignored="false" />
+    <file path="$PROJECT_DIR$/../kehutong/server/features/CustomerManagement/app/controllers/customer_management/send_sms_controller.rb" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1387503213367" ignored="false" />
     <file path="$PROJECT_DIR$/../kehutong/server/features/CustomerService/app/models/customer_service/weixin_reply.rb" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1384762909643" ignored="false" />
     <file path="$PROJECT_DIR$/../kehutong/server/features/CustomerService/app/helpers/customer_service/show_service_helper.rb" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1384761540561" ignored="false" />
     <file path="$PROJECT_DIR$/../kehutong/server/features/CustomerService/config/routes.rb" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1384762909643" ignored="false" />
     <file path="$PROJECT_DIR$/../kehutong/server/tmp/pids/server.pid" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1384765618433" ignored="false" />
-    <file path="$PROJECT_DIR$/../kehutong/server/db/development.sqlite3" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1384844119948" ignored="false" />
+    <file path="$PROJECT_DIR$/../kehutong/server/db/development.sqlite3" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1387511550569" ignored="false" />
     <file path="$PROJECT_DIR$/../kehutong/server/log/development.log" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1384845964488" ignored="false" />
     <file path="$PROJECT_DIR$/../kehutong/server/log/test.log" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1384846136090" ignored="false" />
     <file path="/weixin_marketing_controller_spec.rb" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1384767755605" ignored="false" />
     <file path="$PROJECT_DIR$/../kehutong/server/features/CustomerManagement/lib/customer_management.rb" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1387144303698" ignored="false" />
     <file path="$PROJECT_DIR$/../kehutong/server/features/moode_user_plugin/lib/generators/md_initializer/md_initializer_generator.rb" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1386771301041" ignored="false" />
-    <file path="/_header.html.haml" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1387260938025" ignored="false" />
+    <file path="/_header.html.haml" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1387373599549" ignored="false" />
     <file path="$PROJECT_DIR$/../kehutong/server/config/initializers/moode_user_plugin.rb" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1386686323470" ignored="false" />
-    <file path="dbtable:/3e3c2fc/6b1e4bca-d053-4cf7-bc40-0a8580e7b14e/..customer_service_weixin_verify_codes" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1387159449259" ignored="false" />
-    <file path="dbtable:/3e3c2fc/6b1e4bca-d053-4cf7-bc40-0a8580e7b14e/..delayed_jobs" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1384827396910" ignored="false" />
-    <file path="$PROJECT_DIR$/../kehutong/server/features/CustomerManagement/app/views/customer_management/update_excel/_edit_sms.html.haml" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1384828009019" ignored="false" />
-    <file path="/_edit_sms.html.haml" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1384827983817" ignored="false" />
+    <file path="dbtable:/3e3c2fc/6b1e4bca-d053-4cf7-bc40-0a8580e7b14e/..customer_service_weixin_verify_codes" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1387511488097" ignored="false" />
+    <file path="dbtable:/3e3c2fc/6b1e4bca-d053-4cf7-bc40-0a8580e7b14e/..delayed_jobs" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1387269894844" ignored="false" />
+    <file path="$PROJECT_DIR$/../kehutong/server/features/CustomerManagement/app/views/customer_management/update_excel/_edit_sms.html.haml" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1387509698717" ignored="false" />
+    <file path="/_edit_sms.html.haml" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1387509698717" ignored="false" />
     <file path="$PROJECT_DIR$/../kehutong/server/features/CustomerManagement/app/assets/javascripts/customer_management/update_excel.js" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1384857346653" ignored="false" />
-    <file path="$PROJECT_DIR$/../kehutong/server/features/CustomerManagement/app/views/customer_management/update_excel/_show_upload_excel_modal.html.haml" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1384828436090" ignored="false" />
-    <file path="/update_excel_controller.rb" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1387162566501" ignored="false" />
+    <file path="$PROJECT_DIR$/../kehutong/server/features/CustomerManagement/app/views/customer_management/update_excel/_show_upload_excel_modal.html.haml" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1387509725871" ignored="false" />
+    <file path="/update_excel_controller.rb" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1387509624775" ignored="false" />
     <file path="$PROJECT_DIR$/../kehutong/server/features/CustomerManagement/app/helpers/customer_management/update_excel_helper.rb" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1384857338436" ignored="false" />
-    <file path="dbtable:/3e3c2fc/6b1e4bca-d053-4cf7-bc40-0a8580e7b14e/..customer_management_customers" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1387159480354" ignored="false" />
+    <file path="dbtable:/3e3c2fc/6b1e4bca-d053-4cf7-bc40-0a8580e7b14e/..customer_management_customers" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1387521110687" ignored="false" />
     <file path="$PROJECT_DIR$/../kehutong/server/features/CustomerManagement/app/assets/javascripts/customer_management/application.js" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1384829742838" ignored="false" />
     <file path="/update_excel_helper.rb" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1384846598813" ignored="false" />
-    <file path="dbtable:/3e3c2fc/6b1e4bca-d053-4cf7-bc40-0a8580e7b14e/..customer_service_services" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1384831744998" ignored="false" />
+    <file path="dbtable:/3e3c2fc/6b1e4bca-d053-4cf7-bc40-0a8580e7b14e/..customer_service_services" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1387435851507" ignored="false" />
     <file path="$PROJECT_DIR$/../kehutong/server/features/CustomerManagement/spec/helpers/update_excel_helper_spec.rb" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1384847211084" ignored="false" />
     <file path="/update_excel_helper_spec.rb" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1384847165407" ignored="false" />
-    <file path="$PROJECT_DIR$/../kehutong/server/features/CustomerManagement/spec/controllers/customer_management/update_excel_controller_spec.rb" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1387163237483" ignored="false" />
-    <file path="/update_excel_controller_spec.rb" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1387162984734" ignored="false" />
+    <file path="$PROJECT_DIR$/../kehutong/server/features/CustomerManagement/spec/controllers/customer_management/update_excel_controller_spec.rb" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1387509910202" ignored="false" />
+    <file path="/update_excel_controller_spec.rb" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1387509910202" ignored="false" />
     <file path="/users_controller_spec.rb" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1385278192067" ignored="false" />
-    <file path="/database.yml" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1387157966298" ignored="false" />
+    <file path="/database.yml" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1387521045468" ignored="false" />
     <file path="/application.css" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1385280900950" ignored="false" />
     <file path="/bootstrap.css" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1385280837500" ignored="false" />
     <file path="/user.rb" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1387096560492" ignored="false" />
@@ -145,16 +166,16 @@
     <file path="$PROJECT_DIR$/../kehutong/server/features/moode_user_plugin/app/assets/stylesheets/moode_user_plugin/users.css" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1385717516371" ignored="false" />
     <file path="$PROJECT_DIR$/../kehutong/server/features/moode_user_plugin/config/routes.rb" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1385718774035" ignored="false" />
     <file path="/register_controller.rb" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1385721019917" ignored="false" />
-    <file path="/*.regexp" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1387258607633" ignored="false" />
+    <file path="/*.regexp" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1387511558758" ignored="false" />
     <file path="/style.css" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1386928535356" ignored="false" />
-    <file path="$PROJECT_DIR$/../kehutong/server/features/CustomerManagement/spec/controllers/customer_management/send_sms_controller_spec.rb" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1386120364875" ignored="false" />
-    <file path="/send_sms_controller_spec.rb" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1386120308729" ignored="false" />
-    <file path="dbtable:/3e3c2fc/6b1e4bca-d053-4cf7-bc40-0a8580e7b14e/..customer_management_customer_operations" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1387158660343" ignored="false" />
-    <file path="dbtable:/3e3c2fc/6b1e4bca-d053-4cf7-bc40-0a8580e7b14e/..sqlite_sequence" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1386121621218" ignored="false" />
-    <file path="dbtable:/3e3c2fc/6b1e4bca-d053-4cf7-bc40-0a8580e7b14e/..schema_migrations" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1386121624081" ignored="false" />
+    <file path="$PROJECT_DIR$/../kehutong/server/features/CustomerManagement/spec/controllers/customer_management/send_sms_controller_spec.rb" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1387271894856" ignored="false" />
+    <file path="/send_sms_controller_spec.rb" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1387271894537" ignored="false" />
+    <file path="dbtable:/3e3c2fc/6b1e4bca-d053-4cf7-bc40-0a8580e7b14e/..customer_management_customer_operations" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1387521120597" ignored="false" />
+    <file path="dbtable:/3e3c2fc/6b1e4bca-d053-4cf7-bc40-0a8580e7b14e/..sqlite_sequence" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1387511327064" ignored="false" />
+    <file path="dbtable:/3e3c2fc/6b1e4bca-d053-4cf7-bc40-0a8580e7b14e/..schema_migrations" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1387521189798" ignored="false" />
     <file path="/finance_management.rb" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1386889035203" ignored="false" />
     <file path="/index.html.erb" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1386714939403" ignored="false" />
-    <file path="/index.html.haml" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1387260741530" ignored="false" />
+    <file path="/index.html.haml" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1387520851320" ignored="false" />
     <file path="/new.html.haml" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1386715239629" ignored="false" />
     <file path="$PROJECT_DIR$/../kehutong/server/features/moode_user_plugin/app/helpers/moode_user_plugin/sessions_helper.rb" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1386717487964" ignored="false" />
     <file path="$PROJECT_DIR$/../kehutong/server/features/CustomerService/lib/customer_service.rb" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1386717618998" ignored="false" />
@@ -166,8 +187,7 @@
     <file path="$PROJECT_DIR$/../kehutong/server/features/moode_user_plugin/app/controllers/moode_user_plugin/application_controller.rb" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1386887605844" ignored="false" />
     <file path="/home_pages_controller.rb" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1387235699247" ignored="false" />
     <file path="/current_user_helper.rb" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1386888934868" ignored="false" />
-    <file path="$PROJECT_DIR$/log/development.log" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1386891375549" ignored="false" />
-    <file path="dbtable:/3e3c2fc/6b1e4bca-d053-4cf7-bc40-0a8580e7b14e/..customer_service_weixin_tokens" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1387202571038" ignored="false" />
+    <file path="dbtable:/3e3c2fc/6b1e4bca-d053-4cf7-bc40-0a8580e7b14e/..customer_service_weixin_tokens" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1387511493011" ignored="false" />
     <file path="$PROJECT_DIR$/../kehutong/server/app/helpers/verify_weixin_token_helper.rb" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1387144389781" ignored="false" />
     <file path="dbtable:/3e3c2fc/6b1e4bca-d053-4cf7-bc40-0a8580e7b14e/..moode_user_plugin_users" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1387202536522" ignored="false" />
     <file path="/send_sms_controller.rb" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1387149222670" ignored="false" />
@@ -181,16 +201,78 @@
     <file path="$PROJECT_DIR$/../kehutong/server/features/CustomerManagement/app/assets/javascripts/customer_management/upload.js" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1387170007294" ignored="false" />
     <file path="/weixin_format_spec.rb" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1387177831287" ignored="false" />
     <file path="/customer_in_other_table.rb" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1387172960115" ignored="false" />
-    <file path="dbtable:/3e3c2fc/6b1e4bca-d053-4cf7-bc40-0a8580e7b14e/..customer_management_customer_identities" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1387172916096" ignored="false" />
+    <file path="dbtable:/3e3c2fc/6b1e4bca-d053-4cf7-bc40-0a8580e7b14e/..customer_management_customer_identities" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1387521257246" ignored="false" />
     <file path="$PROJECT_DIR$/../kehutong/server/spec/support/customer_factories.rb" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1387173039296" ignored="false" />
     <file path="/20131215221305_create_finance_star_users_user_verify_codes.rb" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1387203013718" ignored="false" />
     <file path="/20131116095657_create_finance_star_users_users.rb" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1387203088282" ignored="false" />
     <file path="$PROJECT_DIR$/../kehutong/server/features/CustomerManagement/app/models/customer_management/customer_operation.rb" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1387205942224" ignored="false" />
     <file path="/user_verify_code.rb" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1387206041098" ignored="false" />
     <file path="/mailer_service.rb" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1387206729782" ignored="false" />
-    <file path="/customer_management_controller.rb" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1387234654438" ignored="false" />
+    <file path="/customer_management_controller.rb" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1387466520576" ignored="false" />
     <file path="/home_page_controller.rb" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1387236029096" ignored="false" />
-    <file path="/my_finance_controller.rb" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1387260758828" ignored="false" />
+    <file path="/my_finance_controller.rb" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1387497561755" ignored="false" />
+    <file path="/_delete_customer.html.haml" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1387295966460" ignored="false" />
+    <file path="/_edit_customer.html.haml" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1387287466070" ignored="false" />
+    <file path="$PROJECT_DIR$/../kehutong/server/app/assets/stylesheets/font.css" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1387433335026" ignored="false" />
+    <file path="$PROJECT_DIR$/../kehutong/server/rspec.sh" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1387264705142" ignored="false" />
+    <file path="/rspec.sh" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1387264700598" ignored="false" />
+    <file path="$PROJECT_DIR$/../kehutong/server/db/schema.rb" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1387440650688" ignored="false" />
+    <file path="/service.rb" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1387271790694" ignored="false" />
+    <file path="$PROJECT_DIR$/../kehutong/server/features/CustomerManagement/app/views/customer_management/update_excel/show_user_infos.html.haml" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1387509752572" ignored="false" />
+    <file path="/show_user_infos.html.haml" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1387509752572" ignored="false" />
+    <file path="/_add_new_customer.html.haml" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1387292419571" ignored="false" />
+    <file path="/customer_management_helper.rb" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1387322266375" ignored="false" />
+    <file path="/customer.rb" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1387509641145" ignored="false" />
+    <file path="/20131215042002_create_finance_management_customers.rb" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1387324151247" ignored="false" />
+    <file path="$PROJECT_DIR$/log/development.log" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1387324257565" ignored="false" />
+    <file path="/finance_statistics_controller.rb" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1387373489492" ignored="false" />
+    <file path="/font.css" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1387432657208" ignored="false" />
+    <file path="dbtable:/3e3c2fc/6b1e4bca-d053-4cf7-bc40-0a8580e7b14e/..customer_service_service_analytics" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1387435759763" ignored="false" />
+    <file path="$PROJECT_DIR$/../kehutong/server/features/CustomerService/app/views/customer_service/show_service/keyword_auto_reply.html.haml" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1387521030847" ignored="false" />
+    <file path="/keyword_auto_reply.html.haml" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1387509938941" ignored="false" />
+    <file path="$PROJECT_DIR$/../kehutong/server/features/CustomerService/app/views/customer_service/show_service/service_auto_reply.html.haml" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1387437727633" ignored="false" />
+    <file path="$PROJECT_DIR$/../kehutong/server/features/CustomerService/app/views/customer_service/show_service/_header.html.haml" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1387437749843" ignored="false" />
+    <file path="/show_service_controller.rb" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1387509014411" ignored="false" />
+    <file path="$PROJECT_DIR$/../kehutong/server/features/CustomerService/app/views/customer_service/show_service/phone_auto_reply.html.haml" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1387521030847" ignored="false" />
+    <file path="/phone_auto_reply.html.haml" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1387439112984" ignored="false" />
+    <file path="$PROJECT_DIR$/../kehutong/server/features/CustomerService/app/assets/javascripts/customer_service/show_service.js" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1387504883019" ignored="false" />
+    <file path="/show_service.js" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1387504883018" ignored="false" />
+    <file path="dbtable:/3e3c2fc/6b1e4bca-d053-4cf7-bc40-0a8580e7b14e/..customer_management_user_personalize_infos" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1387442129588" ignored="false" />
+    <file path="$PROJECT_DIR$/../kehutong/server/features/CustomerService/app/assets/stylesheets/customer_service/show_service.css" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1387442736683" ignored="false" />
+    <file path="/show_service.css" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1387442718454" ignored="false" />
+    <file path="dbtable:/3e3c2fc/6b1e4bca-d053-4cf7-bc40-0a8580e7b14e/..customer_service_user_defined_keywords" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1387503925343" ignored="false" />
+    <file path="dbtable:/3e3c2fc/6b1e4bca-d053-4cf7-bc40-0a8580e7b14e/..customer_service_two_dimensional_codes" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1387443566784" ignored="false" />
+    <file path="/_add_new_finance_type.html.haml" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1387466465516" ignored="false" />
+    <file path="/_add_new_income_type.html.haml" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1387493913655" ignored="false" />
+    <file path="/_add_new_expenses_type.html.haml" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1387494002088" ignored="false" />
+    <file path="/20131215043734_create_finance_management_customer_consumes.finance_management.rb" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1387495902381" ignored="false" />
+    <file path="/user_defined_consume_type.rb" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1387496964637" ignored="false" />
+    <file path="$PROJECT_DIR$/../kehutong/server/features/CustomerManagement/app/models/customer_management/customer.rb" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1387509641145" ignored="false" />
+    <file path="$PROJECT_DIR$/../kehutong/server/features/CustomerManagement/app/views/customer_management/home_page/index.html.haml" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1387509656237" ignored="false" />
+    <file path="$PROJECT_DIR$/../kehutong/server/features/CustomerManagement/app/views/customer_management/update_excel/_modal.html.haml" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1387509717579" ignored="false" />
+    <file path="/_modal.html.haml" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1387509717579" ignored="false" />
+    <file path="/_show_upload_excel_modal.html.haml" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1387509725870" ignored="false" />
+    <file path="$PROJECT_DIR$/../kehutong/server/features/CustomerService/app/controllers/customer_service/weixin_dialog_controller.rb" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1387509918439" ignored="false" />
+    <file path="/weixin_dialog_controller.rb" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1387509918439" ignored="false" />
+    <file path="$PROJECT_DIR$/../kehutong/server/features/CustomerService/app/views/customer_service/weixin_marketing/name_details_show.html.haml" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1387509973847" ignored="false" />
+    <file path="/name_details_show.html.haml" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1387509973846" ignored="false" />
+    <file path="$PROJECT_DIR$/../kehutong/server/features/CustomerService/app/views/customer_service/weixin_marketing/weixin_details_show.html.haml" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1387509989371" ignored="false" />
+    <file path="/weixin_details_show.html.haml" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1387509989371" ignored="false" />
+    <file path="$PROJECT_DIR$/../kehutong/server/features/CustomerService/spec/controllers/weixin_dialog_controller_spec.rb" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1387510002112" ignored="false" />
+    <file path="/weixin_dialog_controller_spec.rb" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1387510002112" ignored="false" />
+    <file path="$PROJECT_DIR$/../kehutong/server/features/weixin_local/app/views/weixin_local/weixin_test/show.html.erb" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1387510014985" ignored="false" />
+    <file path="/show.html.erb" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1387510014985" ignored="false" />
+    <file path="/regression_testing.md" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1387510085825" ignored="false" />
+    <file path="/development.sqlite3" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1387510090235" ignored="false" />
+    <file path="$PROJECT_DIR$/../kehutong/server/features/CustomerService/app/assets/javascripts/customer_service/reply_weixin.js" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1387510225056" ignored="false" />
+    <file path="/reply_weixin.js" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1387510212457" ignored="false" />
+    <file path="$PROJECT_DIR$/../kehutong/server/.gitignore" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1387516692137" ignored="false" />
+    <file path="/.gitignore" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1387516690861" ignored="false" />
+    <file path="/home_page_spec.rb" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1387517716627" ignored="false" />
+    <file path="$PROJECT_DIR$/../kehutong/server/features/CustomerService/app/views/customer_service/show_service/invitation_auto_reply.html.haml" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1387521030847" ignored="false" />
+    <file path="$PROJECT_DIR$/../kehutong/server/features/CustomerService/app/views/customer_service/show_service/message_auto_reply.html.haml" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1387521030847" ignored="false" />
+    <file path="dbtable:/3e3c2fc/ff26c9fd-18c7-4daa-ad15-ebe95da78c0f/..customer_management_customer_identities" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1387521572982" ignored="false" />
+    <file path="dbtable:/3e3c2fc/ff26c9fd-18c7-4daa-ad15-ebe95da78c0f/..customer_management_customer_operations" changelist="e78dc6d3-ad6f-40af-8ff3-9bf2e96e43c7" time="1387521606080" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -217,17 +299,8 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="_header.html.haml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/shared/_header.html.haml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="77" selection-start="536" selection-end="536" vertical-scroll-proportion="-0.625">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application_controller.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/features/FinanceManagement/app/controllers/finance_management/application_controller.rb">
+      <file leaf-file-name="spec_helper.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/features/FinanceStarUsers/spec/spec_helper.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
@@ -235,53 +308,62 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="customer_management_controller.rb" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/features/FinanceManagement/app/controllers/finance_management/customer_management_controller.rb">
+      <file leaf-file-name="_add_new_customer.html.haml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/features/FinanceManagement/app/views/finance_management/customer_management/_add_new_customer.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="customer_management_helper.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/features/FinanceManagement/app/helpers/finance_management/customer_management_helper.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html.haml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/features/FinanceManagement/app/views/finance_management/home_page/index.html.haml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="58" selection-start="7" selection-end="7" vertical-scroll-proportion="-0.625">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html.haml" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.html.haml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/features/FinanceManagement/app/views/finance_management/my_finance/index.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="8" selection-start="11" selection-end="11" vertical-scroll-proportion="-0.625">
+            <state line="41" column="10" selection-start="617" selection-end="617" vertical-scroll-proportion="0.9411765">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="routes.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/features/FinanceManagement/config/routes.rb">
+      <file leaf-file-name="_add_new_finance_type.html.haml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/features/FinanceManagement/app/views/finance_management/my_finance/_add_new_finance_type.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="41" selection-start="258" selection-end="258" vertical-scroll-proportion="0.0">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="home_page_helper.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/features/FinanceManagement/app/helpers/finance_management/home_page_helper.rb">
+      <file leaf-file-name="_header.html.haml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/features/FinanceManagement/app/views/finance_management/my_finance/_header.html.haml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="495" column="0" selection-start="8609" selection-end="8609" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html.haml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/features/FinanceManagement/app/views/finance_management/customer_management/index.html.haml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="27" column="36" selection-start="493" selection-end="493" vertical-scroll-proportion="-8.125">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html.haml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/features/FinanceManagement/app/views/finance_management/finance_statistics/index.html.haml">
           <provider selected="true" editor-type-id="text-editor">
             <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
@@ -289,19 +371,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="my_finance_helper.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/features/FinanceManagement/app/helpers/finance_management/my_finance_helper.rb">
+      <file leaf-file-name="users_controller_spec.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/features/FinanceStarUsers/spec/controllers/users_controller_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="0" selection-start="25" selection-end="25" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="my_finance_controller.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/features/FinanceManagement/app/controllers/finance_management/my_finance_controller.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="13" selection-start="155" selection-end="155" vertical-scroll-proportion="0.0">
+            <state line="22" column="7" selection-start="333" selection-end="333" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -325,22 +398,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/features/FinanceStarUsers/app/models/finance_star_users/user_verify_code.rb" />
-        <option value="$PROJECT_DIR$/features/FinanceStarUsers/app/controllers/finance_star_users/register_controller.rb" />
-        <option value="$PROJECT_DIR$/app/mailers/mailer_service.rb" />
-        <option value="$PROJECT_DIR$/app/views/mailer_service/welcome_email.text.haml" />
-        <option value="$PROJECT_DIR$/features/FinanceStarUsers/app/controllers/finance_star_users/users_controller.rb" />
-        <option value="$PROJECT_DIR$/app/views/mailer_service/welcome_email.html.haml" />
-        <option value="$PROJECT_DIR$/features/FinanceManagement/app/controllers/finance_management/customer_management_controller.rb" />
-        <option value="$PROJECT_DIR$/features/FinanceManagement/app/controllers/finance_management/home_pages_controller.rb" />
-        <option value="$PROJECT_DIR$/features/FinanceManagement/app/controllers/finance_management/home_page_controller.rb" />
-        <option value="$PROJECT_DIR$/features/FinanceManagement/app/views/finance_management/home_page/index.html.haml" />
-        <option value="$PROJECT_DIR$/features/FinanceManagement/app/views/finance_management/customer_management/_add_new_customer.html.haml" />
-        <option value="$PROJECT_DIR$/features/FinanceManagement/app/views/finance_management/customer_management/index.html.haml" />
-        <option value="$PROJECT_DIR$/features/FinanceManagement/app/views/finance_management/my_finance/index.html.haml" />
+        <option value="dbtable:/fb94dc6b/341be14d-75b4-4807-9a90-684c5f3420eb/..finance_management_customer_consumes" />
+        <option value="$PROJECT_DIR$/db/migrate/20131215043734_create_finance_management_customer_consumes.finance_management.rb" />
+        <option value="$PROJECT_DIR$/features/FinanceManagement/db/migrate/20131215043714_create_finance_management_customer_consumes.rb" />
+        <option value="$PROJECT_DIR$/features/FinanceManagement/db/migrate/20131219233100_create_finance_management_user_defined_consumes_types.rb" />
+        <option value="$PROJECT_DIR$/db/migrate/20131219233127_create_finance_management_user_defined_consumes_types.finance_management.rb" />
+        <option value="$PROJECT_DIR$/features/FinanceManagement/app/models/finance_management/user_defined_consume_type.rb" />
+        <option value="dbtable:/fb94dc6b/341be14d-75b4-4807-9a90-684c5f3420eb/..finance_management_user_defined_consume_types" />
         <option value="$PROJECT_DIR$/features/FinanceManagement/app/controllers/finance_management/my_finance_controller.rb" />
-        <option value="$PROJECT_DIR$/features/FinanceManagement/config/routes.rb" />
-        <option value="$PROJECT_DIR$/app/views/shared/_header.html.haml" />
+        <option value="$PROJECT_DIR$/features/FinanceManagement/finance_management.gemspec" />
+        <option value="$PROJECT_DIR$/features/FinanceManagement/spec/controller/home_page_spec.rb" />
+        <option value="$PROJECT_DIR$/features/FinanceManagement/spec/controllers/home_page_spec.rb" />
+        <option value="$PROJECT_DIR$/app/assets/stylesheets/style.css" />
+        <option value="$PROJECT_DIR$/features/FinanceManagement/app/views/finance_management/my_finance/_header.html.haml" />
+        <option value="dbtable:/fb94dc6b/341be14d-75b4-4807-9a90-684c5f3420eb/..finance_management_customers" />
+        <option value="dbtable:/fb94dc6b/341be14d-75b4-4807-9a90-684c5f3420eb/..finance_star_users_users" />
+        <option value="$PROJECT_DIR$/features/FinanceManagement/app/views/finance_management/my_finance/index.html.haml" />
       </list>
     </option>
   </component>
@@ -374,7 +447,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="RailsProjectView" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -403,6 +475,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="spec" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FinanceStar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FinanceStar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="features" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -443,11 +529,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="db" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="migrate" />
+              <option name="myItemId" value="spec" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -469,7 +551,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="config" />
+              <option name="myItemId" value="spec" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -562,8 +648,38 @@
               <option name="myItemId" value="finance_management" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="home_page" />
+              <option name="myItemId" value="FinanceStar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FinanceStar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="features" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FinanceManagement" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="finance_management" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="finance_statistics" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -675,36 +791,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="helpers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="finance_management" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FinanceStar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FinanceStar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="features" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FinanceManagement" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="controllers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -713,160 +799,9 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FinanceStar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FinanceStar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="features" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FinanceManagement" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FinanceStar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FinanceStar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="db" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FinanceStar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FinanceStar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shared" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FinanceStar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FinanceStar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FinanceStar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FinanceStar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FinanceStar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FinanceStar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mailers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FinanceStar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FinanceStar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FinanceStar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FinanceStar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
+      <pane id="RailsProjectView" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -874,23 +809,24 @@
     <property name="Database.TableEditor.Splitter" value="0.8999999" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="recentsLimit" value="5" />
-    <property name="last_opened_file_path" value="$USER_HOME$/桌面/培训/front-end-course" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../kehutong" />
     <property name="dynamic.classpath" value="false" />
+    <property name="GoToClass.includeJavaFiles" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/features/FinanceManagement/app/views/finance_management/my_finance" />
-      <recent name="$PROJECT_DIR$/features/FinanceManagement/app/views/finance_management/home_page" />
-      <recent name="$PROJECT_DIR$/app/helpers" />
-      <recent name="$PROJECT_DIR$/features/FinanceManagement/app/views/layouts/finance_management" />
+      <recent name="$PROJECT_DIR$/features/FinanceManagement/rspec" />
+      <recent name="$PROJECT_DIR$/public" />
       <recent name="$PROJECT_DIR$/app/assets/images" />
+      <recent name="$PROJECT_DIR$/app/assets/font" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/features/FinanceManagement/app/views/finance_management/my_finance" />
+      <recent name="$PROJECT_DIR$/app/assets" />
+      <recent name="$PROJECT_DIR$/app/assets/font" />
       <recent name="$PROJECT_DIR$/features/FinanceManagement/app/views/finance_management/home_page" />
       <recent name="$PROJECT_DIR$/features" />
-      <recent name="$PROJECT_DIR$/app/assets/images" />
-      <recent name="$PROJECT_DIR$/config/initializers" />
-      <recent name="$PROJECT_DIR$/features/FinanceStarUsers/app/views/finance_star_users/users" />
     </key>
   </component>
   <component name="RunManager" selected="Rails.Development: FinanceStar">
@@ -1150,18 +1086,18 @@
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32686085" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26636225" sideWeight="0.67313915" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.050989345" sideWeight="0.67313915" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28462708" sideWeight="0.67313915" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.36225265" sideWeight="0.67313915" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32847896" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32686085" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32686085" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32847896" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -1227,116 +1163,110 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <option name="time" value="2" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/features/FinanceManagement/app/views/finance_management/customer_management/_add_new_customer.html.haml">
+    <entry file="file://$PROJECT_DIR$/features/FinanceManagement/app/models/finance_management/customer.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="99" selection-start="405" selection-end="891" vertical-scroll-proportion="-10.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/FinanceManagement/spec/controllers/home_page_controller_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="16" selection-start="313" selection-end="313" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/FinanceManagement/finance_management.gemspec">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="51" selection-start="914" selection-end="914" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/FinanceManagement/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/FinanceManagement/Gemfile.lock">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/FinanceStarUsers/spec/spec_helper.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/FinanceStarUsers/spec/controllers/users_controller_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="7" selection-start="333" selection-end="333" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/FinanceManagement/app/views/finance_management/finance_statistics/index.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/fb94dc6b/341be14d-75b4-4807-9a90-684c5f3420eb/..finance_management_customers">
+      <provider editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.persistence.database.editor.DatabaseTableFileEditorProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="495" column="0" selection-start="8609" selection-end="8609" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/fb94dc6b/341be14d-75b4-4807-9a90-684c5f3420eb/..finance_star_users_users">
+      <provider editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.persistence.database.editor.DatabaseTableFileEditorProvider">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/features/FinanceManagement/app/views/finance_management/customer_management/index.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="10" selection-start="491" selection-end="491" vertical-scroll-proportion="-8.833333">
+        <state line="27" column="36" selection-start="493" selection-end="493" vertical-scroll-proportion="-8.125">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/images/cwx_logo.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/mailers/mailer_service.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="35" selection-start="277" selection-end="277" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/shared/_footer.html.haml">
+    <entry file="file://$PROJECT_DIR$/features/FinanceManagement/app/views/finance_management/customer_management/_add_new_customer.html.haml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/db/schema.rb">
+    <entry file="file://$PROJECT_DIR$/features/FinanceManagement/app/views/finance_management/my_finance/_header.html.haml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/features/FinanceManagement/app/helpers/finance_management/customer_management_helper.rb">
+    <entry file="file://$PROJECT_DIR$/features/FinanceManagement/app/views/finance_management/my_finance/_add_new_finance_type.html.haml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/FinanceManagement/app/helpers/finance_management/home_page_helper.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/FinanceManagement/app/views/finance_management/home_page/index.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="58" selection-start="7" selection-end="7" vertical-scroll-proportion="-0.625">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/features/FinanceManagement/app/views/finance_management/my_finance/index.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="8" selection-start="11" selection-end="11" vertical-scroll-proportion="-0.625">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/FinanceManagement/app/helpers/finance_management/my_finance_helper.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="25" selection-end="25" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/FinanceManagement/app/controllers/finance_management/my_finance_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="13" selection-start="155" selection-end="155" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/FinanceManagement/config/routes.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="41" selection-start="258" selection-end="258" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/shared/_header.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="77" selection-start="536" selection-end="536" vertical-scroll-proportion="-0.625">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/FinanceManagement/app/controllers/finance_management/application_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/FinanceManagement/app/controllers/finance_management/customer_management_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="41" column="10" selection-start="617" selection-end="617" vertical-scroll-proportion="0.9411765">
           <folding />
         </state>
       </provider>

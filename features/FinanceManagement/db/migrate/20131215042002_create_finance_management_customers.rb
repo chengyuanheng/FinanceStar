@@ -5,7 +5,7 @@ class CreateFinanceManagementCustomers < ActiveRecord::Migration
       t.string :name
       t.string :phone
       t.string :email
-      t.string :original_funds
+      t.integer :original_funds , :default => 0
 
       t.timestamps
     end

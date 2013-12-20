@@ -1,2 +1,69 @@
-%p
-  我的财务管理
+.container
+  .row
+    =render "header"
+
+
+    .col-md-10
+      .row
+        .col-md-8
+          %h4
+            关键词自动回复
+          %hr
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        .col-md-4
+          %h4
+            我的消费类型
+            %a.btn.btn-primary.pull-right(href="" data-toggle="modal" data-target="#add_new_income_type")
+              %i.icon-plus-sign
+              收入
+            %a.btn.btn-primary.pull-right(href="" data-toggle="modal" data-target="#add_new_expenses_type")
+              %i.icon-plus-sign
+              支出
+          %hr
+          .wx-preview
+            %table.table.table-hover
+              %thead
+                %tr
+                  %td(algin="center")消费
+                  %td(algin="center")消费类型
+                  %td
+                  %td
+              %tbody
+                -@consume.each do |customer|
+                  %tr
+                    %td
+                      = customer.consume
+                    %td
+                      = customer.consume_type
+                    %td
+                      %a(href="" class="btn btn-xs btn-primary" data-toggle="modal" data-target="#edit_customer#{customer.id}")
+                        %i.icon-pencil
+                          编辑
+                      %a(href="" class="btn btn-xs btn-danger" data-toggle="modal" data-target="#delete_customer#{customer.id}")
+                        %i.icon-remove
+                          删除
+
+
+
+
+
+
+
+
+=render "add_new_finance_type"

@@ -6,7 +6,7 @@ module FinanceStarUsers
 
     # GET /users
     def index
-      @users = User.all
+      @users = User.all.paginate(:page => params[:page], :per_page => 10)
     end
 
     # GET /users/1
