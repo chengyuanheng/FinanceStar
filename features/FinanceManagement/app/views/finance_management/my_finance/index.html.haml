@@ -7,8 +7,131 @@
       .row
         .col-md-8
           %h4
-            关键词自动回复
+            收入支出管理
+            %a.btn.btn-primary.pull-right(onclick="show_edit('consume_table')" )
+              %i.icon-plus-sign
+              消费记录
           %hr
+
+          #consume_table.panel.panel-default(hidden=true)
+
+            .panel-heading
+              添加消费记录
+            .panel-body
+              .form-horizontal
+
+                .form-group
+                  %label.col-sm-2.control-label 用户
+                  .col-sm-10
+                    .btn-group
+                      %button.btn.btn-default(type="button") 全部
+                      %button.btn.btn-default.dropdown-toggle(type="button" data-toggle="dropdown")
+                        %span.caret
+                        %span.sr-only 下拉菜单
+                      %ul.dropdown-menu(role="menu")
+                        %li
+                          %a()cc
+                        %li
+                          %a()kk
+                        %li
+                          %a()dev
+
+                .form-group
+                  %label.col-sm-2.control-label 规则
+                  .col-sm-10
+                    .btn-group
+                      %button.btn.btn-default(type="button") 全部
+                      %button.btn.btn-default.dropdown-toggle(type="button" data-toggle="dropdown")
+                        %span.caret
+                        %span.sr-only 下拉菜单
+                      %ul.dropdown-menu(role="menu")
+                        %li
+                          %a()收入
+                        %li
+                          %a()支出
+                    .btn-group
+                      %button.btn.btn-default(type="button") 全部
+                      %button.btn.btn-default.dropdown-toggle(type="button" data-toggle="dropdown")
+                        %span.caret
+                        %span.sr-only 下拉菜单
+                      %ul.dropdown-menu(role="menu")
+                        %li
+                          %a()公司福利
+                        %li
+                          %a()日常消费
+                        %li
+                          %a()工资
+
+
+
+                .form-group
+                  %label.col-sm-2.control-label 消费
+                  .col-sm-10
+                    %input(type="number" name="number" id="number" min="0" value="0")
+                    &nbsp&nbsp元
+
+                .form-group
+                  %label.col-sm-2.control-label 描述
+                  .col-sm-10
+                    %textarea.form-control(rows="1") 公司聚餐 消费了100元 哈哈哈哈哈哈哈哈
+
+            .panel-footer.text-right
+              %a.btn.btn-default(href = "") 取消
+              %a.btn.btn-primary(onclick="save_consume_table()" ) 添加
+
+
+
+          -if @consume.present?
+            -@consume.each do |consume|
+              .panel.panel-default
+                .panel-heading
+                  cc 消费记录时间：2013年12月21日
+                .panel-body
+                  .form-horizontal
+
+                    .form-group
+                      %label.col-sm-2.control-label 用户
+                      .col-sm-10
+                        .btn-group
+                          %button.btn.btn-default(type="button") cc
+
+                    .form-group
+                      %label.col-sm-2.control-label 规则
+                      .col-sm-10
+                        .btn-group
+                          %button.btn.btn-default(type="button") #{consume.consume}
+
+                        .btn-group
+                          %button.btn.btn-default(type="button") #{consume.consume_type}
+
+                    .form-group
+                      %label.col-sm-2.control-label 消费
+                      .col-sm-10
+                        .btn-group
+                          %button.btn.btn-default(type="button") 100元
+
+                    .form-group
+                      %label.col-sm-2.control-label 描述
+                      .col-sm-10
+                        %textarea.form-control(rows="1") 公司聚餐 消费了100元 哈哈哈哈哈哈哈哈
+
+
+                .panel-footer.text-right
+                  %a.btn.btn-default(href="#") 取消
+                  %a.btn.btn-primary(href="#") 保存
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -29,10 +152,10 @@
         .col-md-4
           %h4
             我的消费类型
-            %a.btn.btn-primary.pull-right(href="" data-toggle="modal" data-target="#add_new_income_type")
+            %a.btn.btn-primary.pull-right.consume_style(href="" data-toggle="modal" data-target="#add_new_income_type")
               %i.icon-plus-sign
               收入
-            %a.btn.btn-primary.pull-right(href="" data-toggle="modal" data-target="#add_new_expenses_type")
+            %a.btn.btn-primary.pull-right.consume_style(href="" data-toggle="modal" data-target="#add_new_expenses_type")
               %i.icon-plus-sign
               支出
           %hr

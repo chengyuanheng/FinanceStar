@@ -9,6 +9,7 @@ module FinanceManagement
       @consume = UserDefinedConsumeType.find_all_by_user_id(current_user_id)
 
 
+
     end
 
     def add_new_expenses_type
