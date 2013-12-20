@@ -1,54 +1,79 @@
-%p
-  客户管理
+.container
+  .row
+    %div(class="col-md-8" )
+      %div
+        %a(href="" class="btn btn-lg btn-default btn-default-alt" data-toggle="modal" data-target="#add_new_customer")
+          %i.icon-user-add
+          新建客户
 
+  %hr
 
-.row
-  %div(class="col-md-8" )
-    %div
-      %a(href="" class="btn btn-lg btn-default btn-default-alt" data-toggle="modal" data-target="#add_new_customer")
-        %i.icon-user-add
-        新建客户
-
-%hr
-
-
-%table.table.table-hover
-  %thead
-    %tr
-      %td(algin="center")姓名
-      %td(algin="center")电话
-      %td(algin="center")邮箱
-      %td(algin="center")初始资金
-      %td
-      %td
-  %tbody
-    -@customers.each do |customer|
+  %table.table.table-hover
+    %thead
       %tr
+        %td(algin="center")姓名
+        %td(algin="center")电话
+        %td(algin="center")邮箱
+        %td(algin="center")初始资金
         %td
-          = customer.name
         %td
-          = customer.phone
-        %td
-          = customer.email
-        %td
-          = customer.original_funds
-        %td
-          %a(href="" class="btn btn-xs btn-primary" data-toggle="modal" data-target="#edit_customer#{customer.id}")
-            %i.icon-pencil
-              编辑
-          %a(href="" class="btn btn-xs btn-danger" data-toggle="modal" data-target="#delete_customer#{customer.id}")
-            %i.icon-remove
-              删除
+    %tbody
+      -@customers.each do |customer|
+        %tr
+          %td
+            = customer.name
+          %td
+            = customer.phone
+          %td
+            = customer.email
+          %td
+            = customer.original_funds
+          %td
+            %a(href="" class="btn btn-xs btn-primary" data-toggle="modal" data-target="#edit_customer#{customer.id}")
+              %i.icon-pencil
+                编辑
+            %a(href="" class="btn btn-xs btn-danger" data-toggle="modal" data-target="#delete_customer#{customer.id}")
+              %i.icon-remove
+                删除
 
+            %div(class="modal fade" id="edit_customer#{customer.id}" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true")
+              %div(class="modal-dialog")
+                %div(class="modal-content")
+                  %div(class="modal-header")
+                    %button(type="button" class="close" data-dismiss="modal" aria-hidden="true") &times
+                    %h4(class="modal-title" id="myModalLabel") 编辑客户信息
+                  %div(class="modal-body")
+                    = form_for :edit_customer, :url => {:action => "edit_customer"}, :http => {:method => "post"} do |f|
+                      %table.table.table-hover
+                        %thead
+                          %tr
+                            %td(algin="center")姓名
+                            %td(algin="center")电话
+                            %td(algin="center")邮箱
+                            %td(algin="center")初始资金
+                        %tbody
+                          -if find_customer(customer.id).present?
+                            %tr
+                              %td
+                                =f.text_field :name, class: "edit_customer_info_input", value: find_customer(customer.id).name
+                              %td
+                                =f.text_field :phone, class: "edit_customer_info_input",  readonly: "readonly", value: find_customer(customer.id).phone
+                              %td
+                                =f.text_field :email, class: "edit_customer_info_input", value: find_customer(customer.id).email
+                              %td
+                                =f.text_field :original_funds, class: "edit_customer_info_input", value: find_customer(customer.id).original_funds
 
-          %div(class="modal fade" id="edit_customer#{customer.id}" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true")
-            %div(class="modal-dialog")
-              %div(class="modal-content")
-                %div(class="modal-header")
-                  %button(type="button" class="close" data-dismiss="modal" aria-hidden="true") &times
-                  %h4(class="modal-title" id="myModalLabel") 编辑客户信息
-                %div(class="modal-body")
-                  = form_for :edit_customer, :url => {:action => "edit_customer"}, :http => {:method => "post"} do |f|
+                      %div(class="modal-footer" )
+                        %input(type="submit" class="btn btn-primary btn-lg" value="保存")
+                        %input(type="button" class="btn btn-default btn-lg" data-dismiss="modal" value="取消" )
+
+            %div(class="modal fade" id="delete_customer#{customer.id}" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true")
+              %div(class="modal-dialog")
+                %div(class="modal-content")
+                  %div(class="modal-header")
+                    %button(type="button" class="close" data-dismiss="modal" aria-hidden="true") &times
+                    %h4(class="modal-title" id="myModalLabel") 是否删除客户 #{customer.name}
+                  %div(class="modal-body")
                     %table.table.table-hover
                       %thead
                         %tr
@@ -56,52 +81,17 @@
                           %td(algin="center")电话
                           %td(algin="center")邮箱
                           %td(algin="center")初始资金
-                      %tbody
-                        -if find_customer(customer.id).present?
-                          %tr
-                            %td
-                              =f.text_field :name, class: "edit_customer_info_input", value: find_customer(customer.id).name
-                            %td
-                              =f.text_field :phone, class: "edit_customer_info_input",  readonly: "readonly", value: find_customer(customer.id).phone
-                            %td
-                              =f.text_field :email, class: "edit_customer_info_input", value: find_customer(customer.id).email
-                            %td
-                              =f.text_field :original_funds, class: "edit_customer_info_input", value: find_customer(customer.id).original_funds
 
+                      %tbody
+                        %tr
+                          %td= customer.name
+                          %td= customer.phone
+                          %td= customer.email
+                          %td= customer.original_funds
 
                     %div(class="modal-footer" )
-                      %input(type="submit" class="btn btn-primary btn-lg" value="保存")
+                      =link_to "删除" , {:controller => "customer_management", :action => "delete_customer",:id=>"#{customer.id}"},:method => :post , :class=>"btn btn-danger btn-lg"
                       %input(type="button" class="btn btn-default btn-lg" data-dismiss="modal" value="取消" )
-
-
-
-          %div(class="modal fade" id="delete_customer#{customer.id}" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true")
-            %div(class="modal-dialog")
-              %div(class="modal-content")
-                %div(class="modal-header")
-                  %button(type="button" class="close" data-dismiss="modal" aria-hidden="true") &times
-                  %h4(class="modal-title" id="myModalLabel") 是否删除客户 #{customer.name}
-                %div(class="modal-body")
-                  %table.table.table-hover
-                    %thead
-                      %tr
-                        %td(algin="center")姓名
-                        %td(algin="center")电话
-                        %td(algin="center")邮箱
-                        %td(algin="center")初始资金
-
-                    %tbody
-                      %tr
-                        %td= customer.name
-                        %td= customer.phone
-                        %td= customer.email
-                        %td= customer.original_funds
-
-                  %div(class="modal-footer" )
-                    =link_to "删除" , {:controller => "customer_management", :action => "delete_customer",:id=>"#{customer.id}"},:method => :post , :class=>"btn btn-danger btn-lg"
-                    %input(type="button" class="btn btn-default btn-lg" data-dismiss="modal" value="取消" )
-
-
 
 =render "add_new_customer"
 

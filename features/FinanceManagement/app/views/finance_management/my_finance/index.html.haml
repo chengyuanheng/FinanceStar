@@ -2,7 +2,6 @@
   .row
     =render "header"
 
-
     .col-md-10
       .row
         .col-md-8
@@ -12,14 +11,11 @@
               %i.icon-plus-sign
               消费记录
           %hr
-
           #consume_table.panel.panel-default(hidden=true)
-
             .panel-heading
               添加消费记录
             .panel-body
               .form-horizontal
-
                 .form-group
                   %label.col-sm-2.control-label 用户
                   .col-sm-10
@@ -62,8 +58,6 @@
                         %li
                           %a()工资
 
-
-
                 .form-group
                   %label.col-sm-2.control-label 消费
                   .col-sm-10
@@ -78,8 +72,6 @@
             .panel-footer.text-right
               %a.btn.btn-default(href = "") 取消
               %a.btn.btn-primary(onclick="save_consume_table()" ) 添加
-
-
 
           -if @consume.present?
             -@consume.each do |consume|
@@ -120,35 +112,6 @@
                   %a.btn.btn-default(href="#") 取消
                   %a.btn.btn-primary(href="#") 保存
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
         .col-md-4
           %h4
             我的消费类型
@@ -181,12 +144,5 @@
                       %a(href="" class="btn btn-xs btn-danger" data-toggle="modal" data-target="#delete_customer#{customer.id}")
                         %i.icon-remove
                           删除
-
-
-
-
-
-
-
 
 =render "add_new_finance_type"
