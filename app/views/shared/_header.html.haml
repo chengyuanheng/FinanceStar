@@ -10,16 +10,16 @@
       %div(class="navbar-collapse collapse" )
         -if !is_admin?
           %ul(class="nav navbar-nav")
-            %li
+            %li#_finance_management_index
               %a(href="javascript:{window.location.href = '/finance_management/index'}") 首页
-            %li
+            %li#_finance_management_customer_management_index
               %a(href="javascript:{window.location.href = '/finance_management/customer_management/index'}") 客户管理
-            %li
+            %li#_finance_management_my_finance_index
               %a(href="javascript:{window.location.href = '/finance_management/my_finance/index'}") 财务管理
-            %li
+            %li#_finance_management_finance_statistics_index
               %a(href="javascript:{window.location.href = '/finance_management/finance_statistics/index'}") 信息统计
-            %li
-              %a(href="javascript:{window.location.href = '#'}" ) Wap系统
+            -#%li#_finance_management_customer_management_index
+            -#  %a(href="javascript:{window.location.href = '#'}" ) Wap系统
 
         %ul(class="nav navbar-nav navbar-right" )
           %li(class="dropdown" )
