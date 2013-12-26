@@ -21,6 +21,8 @@ FinanceManagement::Engine.routes.draw do
 
   get "my_finance/index" ,to:"my_finance#index"
 
+  match "my_finance/save_consume_table",to:"my_finance#save_consume_table" ,:via => :post
+
   post "add_new_income_type" , to: "my_finance#add_new_income_type"
 
   post "add_new_expenses_type" , to: "my_finance#add_new_expenses_type"

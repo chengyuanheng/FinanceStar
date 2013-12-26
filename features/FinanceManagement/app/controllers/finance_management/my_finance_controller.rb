@@ -11,12 +11,20 @@ module FinanceManagement
       @customer_consume = UserDefinedConsumeType.find_all_by_user_id(current_user_id).paginate(:page => params[:page], :per_page => 10)
       @my_finance = CustomerConsume.find_all_by_user_id(current_user_id).paginate(:page => params[:page], :per_page => 10)
 
+    end
 
+    def save_consume_table
 
+      customer_consume_table = CustomerConsume.new
+      customer_consume_table.user_id = current_user_id
+      customer_consume_table.customer_name = params[:select_customer]
+      customer_consume_table.consume = params[:select_customer_consume]
+      customer_consume_table.consume_type = params[:customer_consume_type]
+      customer_consume_table.consume_value = params[:customer_consume_value]
+      customer_consume_table.consume_describe = params[:customer_consume_describe]
+      customer_consume_table.save
 
-
-
-
+      redirect_to :action => 'index'
     end
 
     def add_new_expenses_type

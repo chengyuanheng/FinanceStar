@@ -8,3 +8,48 @@ function show_edit(id) {
 function hide_edit(id){
     $("#"+id).hide()
 }
+
+function exchange_customer_name(name){
+    $("#select_customer").text(name);
+}
+
+function exchange_customer_consume(consume,consume_type){
+    $("#select_customer_consume").text(consume+"/"+consume_type);
+}
+
+function save_consume_table(){
+
+    var customer_name = $("#select_customer").text();
+    var customer_consume =  $("#select_customer_consume").text();
+    var customer_consume_value = $("#customer_consume_value").val();
+    var customer_consume_describe = $("#customer_consume_describe").text();
+
+    var content = {
+        "select_customer" : customer_name,
+        "select_customer_consume" :customer_consume.substring(0,2),
+        "customer_consume_type": customer_consume.substring(3,customer_consume.length),
+        "customer_consume_value" : customer_consume_value,
+        "customer_consume_describe" : customer_consume_describe
+    };
+
+    $.ajax({
+        method: "POST",
+        url: "save_consume_table",
+        data: content,
+        dataType: "text",
+        success: change_success,
+        error: change_error
+    });
+
+    function change_success() {
+        console.log("success");
+    }
+
+    function change_error() {
+        console.log("error");
+    }
+
+    window.location.reload();
+
+
+}

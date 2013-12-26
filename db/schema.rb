@@ -15,7 +15,7 @@ ActiveRecord::Schema.define(version: 20131219233127) do
 
   create_table "finance_management_customer_consumes", force: true do |t|
     t.string   "user_id"
-    t.string   "customer_id"
+    t.string   "customer_name"
     t.string   "consume"
     t.string   "consume_type"
     t.string   "consume_value"
