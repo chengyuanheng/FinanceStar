@@ -1,2 +1,52 @@
 .container
   .row
+    .col-md-12
+      %div(class="panel panel-default" )
+        %div(class="panel-heading" )
+          %div(class="row" )
+            %div(class="col-md-10" )
+              %div(class="dl-horizontal filter-dl filter-radio" )
+                %dt
+                  %span 消费
+                  %dd(id='consume')
+                    %a(class="label label-primary" href="javascript:{}" onclick="" ) 全部
+                    %a(class="label label-blank" href="javascript:{}" onclick="")收入
+                    %a(class="label label-blank" href="javascript:{}" onclick="" ) 支出
+              %div(class="dl-horizontal filter-dl filter-radio" )
+                %dt
+                  %span 时段
+                  %dd(id='weixin')
+                    %a(class="label label-primary" href="javascript:{}" onclick="" ) 全部
+                    %a(class="label label-blank" href="javascript:{}" onclick="" )周汇总
+                    %a(class="label label-blank" href="javascript:{}" onclick="" ) 月汇总
+                    %a(class="label label-blank" href="javascript:{}" onclick="" ) 季度汇总
+
+  %hr
+
+  %table.table.table-hover
+    %thead
+      %tr
+        %td(algin="center")姓名
+        %td(algin="center")消费
+        %td(algin="center")消费类型
+        %td(algin="center")时间
+        %td(algin="center")消费总额
+        %td
+    %tbody
+      -@customer_consume.each do |customer|
+        %tr
+          %td
+            = customer.customer_name
+          %td
+            = customer.consume
+          %td
+            = customer.consume_type
+          %td
+            = show_begin_and_end_time customer
+          %td
+            = count_finance customer
+            元
+          %td
+            %a(href="" class="btn btn-xs btn-primary" data-toggle="modal" data-target="#edit_customer#{customer.id}")
+              %i.icon-comments
+                详情
