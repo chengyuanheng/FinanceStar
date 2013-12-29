@@ -22,7 +22,7 @@ function save_consume_table(){
     var customer_name = $("#select_customer").text();
     var customer_consume =  $("#select_customer_consume").text();
     var customer_consume_value = $("#customer_consume_value").val();
-    var customer_consume_describe = $("#customer_consume_describe").text();
+    var customer_consume_describe = $("#customer_consume_describe").val();
 
     var content = {
         "select_customer" : customer_name,

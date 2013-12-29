@@ -62,7 +62,7 @@
                 .form-group
                   %label.col-sm-2.control-label 描述
                   .col-sm-10
-                    %textarea#customer_consume_describe.form-control(rows="1") 公司聚餐 消费了100元 哈哈哈哈哈哈哈哈
+                    %textarea#customer_consume_describe.form-control(rows="1")
 
             .panel-footer.text-right
               %a.btn.btn-default(href = "") 取消
@@ -72,7 +72,7 @@
             -@my_finance.each do |my_finance|
               .panel.panel-default
                 .panel-heading
-                  cc 消费记录时间：2013年12月21日
+                  #{my_finance.customer_name} 消费记录时间：#{my_finance.created_at.strftime("%Y-%m-%d %H:%M:%S")}
                 .panel-body
                   .form-horizontal
 
@@ -195,6 +195,5 @@
 
 =render "add_new_finance_type"
 
-=will_paginate @customer_consume , :previous_label => '上一页' , :next_label => '下一页', renderer: BootstrapPagination::Rails
 =will_paginate @my_finance , :previous_label => '上一页' , :next_label => '下一页', renderer: BootstrapPagination::Rails
 

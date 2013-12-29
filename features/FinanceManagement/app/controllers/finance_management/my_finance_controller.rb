@@ -1,5 +1,6 @@
 # encoding: utf-8
 require_dependency "finance_management/application_controller"
+require "will_paginate/array"
 
 module FinanceManagement
   class MyFinanceController < ApplicationController
@@ -8,7 +9,7 @@ module FinanceManagement
 
       @customers = Customer.find_all_by_user_id(current_user_id)
 
-      @customer_consume = UserDefinedConsumeType.find_all_by_user_id(current_user_id).paginate(:page => params[:page], :per_page => 10)
+      @customer_consume = UserDefinedConsumeType.find_all_by_user_id(current_user_id)
       @my_finance = CustomerConsume.find_all_by_user_id(current_user_id).paginate(:page => params[:page], :per_page => 10)
 
     end

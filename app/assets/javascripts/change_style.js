@@ -34,7 +34,13 @@ function fetch_id_base_path() {
 
 
     function _build_id() {
+
         var path = window.location.pathname;
+
+        if(path.indexOf('/finance_management/finance_statistics/show_customer_detail')!=-1) {
+            path = '/finance_management/finance_statistics/index'
+        }
+
         return path.replace(/\//g, '_');
     }
 }
