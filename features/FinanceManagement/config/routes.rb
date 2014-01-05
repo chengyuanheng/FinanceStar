@@ -21,6 +21,10 @@ FinanceManagement::Engine.routes.draw do
 
   get "my_finance/index" ,to:"my_finance#index"
 
+  get "my_finance/income/:name" , to: "my_finance#customer_income_detail"
+
+  get "my_finance/expense/:name" , to: "my_finance#customer_expense_detail"
+
   match "my_finance/save_consume_table",to:"my_finance#save_consume_table" ,:via => :post
 
   post "add_new_income_type" , to: "my_finance#add_new_income_type"
@@ -31,6 +35,7 @@ FinanceManagement::Engine.routes.draw do
   get "finance_statistics/index" , to: "finance_statistics#index"
 
   get "finance_statistics/show_customer_detail/:name" ,to: "finance_statistics#show_customer_detail"
+
 
 
 

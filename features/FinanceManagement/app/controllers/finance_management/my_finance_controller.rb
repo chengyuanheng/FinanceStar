@@ -10,7 +10,10 @@ module FinanceManagement
       @customers = Customer.find_all_by_user_id(current_user_id)
 
       @customer_consume = UserDefinedConsumeType.find_all_by_user_id(current_user_id)
-      @my_finance = CustomerConsume.find_all_by_user_id(current_user_id).paginate(:page => params[:page], :per_page => 10)
+
+      @my_finance = CustomerConsume.find_all_by_user_id(current_user_id).reverse.paginate(:page => params[:page], :per_page => 10)
+
+      @all_customer = CustomerConsume.where(user_id:current_user_id).group(:customer_name)
 
     end
 
@@ -72,8 +75,29 @@ module FinanceManagement
 
     end
 
+    def customer_income_detail
 
+      customer_name = params[:name]
 
+      @customer_consume = UserDefinedConsumeType.find_all_by_user_id(current_user_id)
+
+      @my_finance = CustomerConsume.where(user_id:current_user_id).where(customer_name:customer_name).where(consume:"收入").reverse.paginate(:page => params[:page], :per_page => 10)
+
+      @all_customer = CustomerConsume.where(user_id:current_user_id).group(:customer_name)
+
+    end
+
+    def customer_expense_detail
+
+      customer_name = params[:name]
+
+      @customer_consume = UserDefinedConsumeType.find_all_by_user_id(current_user_id)
+
+      @my_finance = CustomerConsume.where(user_id:current_user_id).where(customer_name:customer_name).where(consume:"支出").reverse.paginate(:page => params[:page], :per_page => 10)
+
+      @all_customer = CustomerConsume.where(user_id:current_user_id).group(:customer_name)
+
+    end
 
   end
 end

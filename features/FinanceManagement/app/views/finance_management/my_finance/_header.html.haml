@@ -2,27 +2,13 @@
   .multilevel-nav
     %ul.nav.nav-pills.nav-stacked
       %li
-        %a(href="#")  XXXXXX
-    %ul.nav.nav-pills.nav-stacked
-      %li
-        %a(href="#")  XXXXXX
-    %ul.nav.nav-pills.nav-stacked
-      %li
-        %span.nav-title  CC
-      %li
-        %a.sub-level(href="#")  XX
-      %li
-        %a.sub-level(href="#")  XX
-    %ul.nav.nav-pills.nav-stacked
-      %li
-        %a(href="#")  XXXXX
-    %ul.nav.nav-pills.nav-stacked
-      %li
-        %a(href="#")  XXXXX
-    %ul.nav.nav-pills.nav-stacked
-      %li
-        %span.nav-title  CC
-      %li
-        %a.sub-level(href="#")  XXXX
-      %li
-        %a.sub-level(href="#") XXXXX
+        %a.sub-level(href="/finance_management/my_finance/index")全部
+    -@all_customer.each do |customer|
+      %ul.nav.nav-pills.nav-stacked
+        %li
+          %span.nav-title
+            = customer.customer_name
+        %li
+          %a.sub-level(href="/finance_management/my_finance/income/#{customer.customer_name}") 收入
+        %li
+          %a.sub-level(href="/finance_management/my_finance/expense/#{customer.customer_name}") 支出

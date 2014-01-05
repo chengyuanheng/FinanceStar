@@ -24,7 +24,7 @@ function fetch_id_base_path() {
         _finance_management_index: '_finance_management_index',
         _finance_management_customer_management_index: '_finance_management_customer_management_index',
         _finance_management_my_finance_index: '_finance_management_my_finance_index',
-        _finance_management_finance_statistics_index: '_finance_management_finance_statistics_index',
+        _finance_management_finance_statistics_index: '_finance_management_finance_statistics_index'
     };
 
     var mapping = {};
@@ -39,6 +39,12 @@ function fetch_id_base_path() {
 
         if(path.indexOf('/finance_management/finance_statistics/show_customer_detail')!=-1) {
             path = '/finance_management/finance_statistics/index'
+        }
+        if(path.indexOf('/finance_management/my_finance/expense')!=-1) {
+            path = '/finance_management/my_finance/index'
+        }
+        if(path.indexOf('/finance_management/my_finance/income')!=-1) {
+            path = '/finance_management/my_finance/index'
         }
 
         return path.replace(/\//g, '_');

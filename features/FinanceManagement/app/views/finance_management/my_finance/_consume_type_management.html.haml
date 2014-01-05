@@ -1,0 +1,84 @@
+%h4
+  我的消费类型
+  %a.btn.btn-primary.pull-right.consume_style(href="" data-toggle="modal" data-target="#add_new_income_type")
+    %i.icon-plus-sign
+    收入
+  %a.btn.btn-primary.pull-right.consume_style(href="" data-toggle="modal" data-target="#add_new_expenses_type")
+    %i.icon-plus-sign
+    支出
+%hr
+.wx-preview
+  %table.table.table-hover
+    %thead
+      %tr
+        %td(algin="center")消费
+        %td(algin="center")消费类型
+        %td
+        %td
+    %tbody
+      -@customer_consume.each do |customer_consume|
+        %tr
+          %td
+            = customer_consume.consume
+          %td
+            = customer_consume.consume_type
+          %td
+            %a(href="" class="btn btn-xs btn-primary" data-toggle="modal" data-target="#edit_customer_consume#{customer_consume.id}")
+              %i.icon-pencil
+                编辑
+            %a(href="" class="btn btn-xs btn-danger" data-toggle="modal" data-target="#delete_customer_consume#{customer_consume.id}")
+              %i.icon-remove
+                删除
+
+
+
+            %div(class="modal fade" id="edit_customer_consume#{customer_consume.id}" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true")
+              %div(class="modal-dialog")
+                %div(class="modal-content")
+                  %div(class="modal-header")
+                    %button(type="button" class="close" data-dismiss="modal" aria-hidden="true") &times
+                    %h4(class="modal-title" id="myModalLabel") 编辑消费类型
+                  %div(class="modal-body")
+                    = form_for :edit_customer_consume, :url => {:action => "edit_customer_consume"}, :http => {:method => "post"} do |f|
+                      %table.table.table-hover
+                        %thead
+                          %tr
+                            %td(algin="center")编号
+                            %td(algin="center")消费
+                            %td(algin="center")消费类型
+                        %tbody
+                          %tr
+                            %td
+                              =f.text_field :consume_id, class: "edit_customer_consume_info_input",  readonly: "readonly", value: customer_consume.id
+                            %td
+                              =f.text_field :consume, class: "edit_customer_consume_info_input", readonly: "readonly", value: customer_consume.consume
+                            %td
+                              =f.text_field :consume_type, class: "edit_customer_consume_info_input", value: customer_consume.consume_type
+
+                      %div(class="modal-footer" )
+                        %input(type="submit" class="btn btn-primary btn-lg" value="保存")
+                        %input(type="button" class="btn btn-default btn-lg" data-dismiss="modal" value="取消" )
+
+
+
+            %div(class="modal fade" id="delete_customer_consume#{customer_consume.id}" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true")
+              %div(class="modal-dialog")
+                %div(class="modal-content")
+                  %div(class="modal-header")
+                    %button(type="button" class="close" data-dismiss="modal" aria-hidden="true") &times
+                    %h4(class="modal-title" id="myModalLabel") 是否删除此消费定义
+                  %div(class="modal-body")
+                    %table.table.table-hover
+                      %thead
+                        %tr
+                          %td(algin="center")消费
+                          %td(algin="center")消费类型
+
+                      %tbody
+                        %tr
+                          %td= customer_consume.consume
+                          %td= customer_consume.consume_type
+
+                    %div(class="modal-footer" )
+                      =link_to "删除" , {:controller => "my_finance", :action => "delete_customer_consume",:id=>"#{customer_consume.id}"},:method => :post , :class=>"btn btn-danger btn-lg"
+                      %input(type="button" class="btn btn-default btn-lg" data-dismiss="modal" value="取消" )

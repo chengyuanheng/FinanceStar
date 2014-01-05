@@ -5,12 +5,12 @@
     .col-md-10
       .row
         .col-md-8
-          =render "all_content"
-
+          =render "customer_expense_content"
         .col-md-4
           =render "consume_type_management"
 
 =render "add_new_finance_type"
 
 =will_paginate @my_finance , :previous_label => '上一页' , :next_label => '下一页', renderer: BootstrapPagination::Rails
+
 

@@ -5,7 +5,7 @@ class CreateFinanceManagementCustomerConsumes < ActiveRecord::Migration
       t.string :customer_name
       t.string :consume
       t.string :consume_type
-      t.string :consume_value
+      t.integer :consume_value, :default => 0
       t.string :consume_describe
 
       t.timestamps

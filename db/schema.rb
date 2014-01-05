@@ -18,7 +18,7 @@ ActiveRecord::Schema.define(version: 20131219233127) do
     t.string   "customer_name"
     t.string   "consume"
     t.string   "consume_type"
-    t.string   "consume_value"
+    t.integer  "consume_value",    default: 0
     t.string   "consume_describe"
     t.datetime "created_at"
     t.datetime "updated_at"
