@@ -1,5 +1,5 @@
 %h4
-  我的消费类型
+  添加消费类型
   %a.btn.btn-primary.pull-right.consume_style(href="" data-toggle="modal" data-target="#add_new_income_type")
     %i.icon-plus-sign
     收入
@@ -49,11 +49,11 @@
                         %tbody
                           %tr
                             %td
-                              =f.text_field :consume_id, class: "edit_customer_consume_info_input",  readonly: "readonly", value: customer_consume.id
+                              =f.text_field :consume_id, class: "edit_customer_consume_info_input form-control",  readonly: "readonly", value: customer_consume.id
                             %td
-                              =f.text_field :consume, class: "edit_customer_consume_info_input", readonly: "readonly", value: customer_consume.consume
+                              =f.text_field :consume, class: "edit_customer_consume_info_input form-control", readonly: "readonly", value: customer_consume.consume
                             %td
-                              =f.text_field :consume_type, class: "edit_customer_consume_info_input", value: customer_consume.consume_type
+                              =f.text_field :consume_type, class: "edit_customer_consume_info_input form-control", value: customer_consume.consume_type
 
                       %div(class="modal-footer" )
                         %input(type="submit" class="btn btn-primary btn-lg" value="保存")

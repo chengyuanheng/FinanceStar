@@ -32,6 +32,16 @@ function save_consume_table(){
         "customer_consume_describe" : customer_consume_describe
     };
 
+    if(content.select_customer == "请选择用户"){
+        alert("暂无用户");
+        return;
+    }
+
+    if(content.customer_consume_type == "消费类型"){
+        alert("暂无消费类型");
+        return;
+    }
+
     $.ajax({
         method: "POST",
         url: "save_consume_table",

@@ -1,5 +1,21 @@
 .container
   .row
+    -if flash[:create_new_customer].present?
+      -if flash[:create_new_customer] == "success"
+        %div(class="alert alert-dismissable alert-success"  id='tip_send_sms_success' )
+          %button(type="button" class="close" data-dismiss="alert" aria-hidden="true" ) &times;
+          %p
+            %strong 新建用户成功
+          %p
+            %span(id='close_tip_send_sms_success') 5
+            %span 秒后自动消失
+      -else
+        %div(class="alert alert-dismissable alert-danger"  id='tip_send_sms_false' )
+          %button(type="button" class="close" data-dismiss="alert" aria-hidden="true" ) &times;
+          %p
+            %strong 您的短信息没有发送成功，原因可能是短信条数不足
+
+
     %div(class="col-md-8" )
       %div
         %a(href="" class="btn btn-lg btn-default btn-default-alt" data-toggle="modal" data-target="#add_new_customer")
@@ -28,6 +44,7 @@
             = customer.email
           %td
             = customer.original_funds
+            元
           %td
             %a(href="" class="btn btn-xs btn-primary" data-toggle="modal" data-target="#edit_customer#{customer.id}")
               %i.icon-pencil
@@ -55,13 +72,13 @@
                           -if find_customer(customer.id).present?
                             %tr
                               %td
-                                =f.text_field :name, class: "edit_customer_info_input", value: find_customer(customer.id).name
+                                =f.text_field :name, class: "edit_customer_info_input form-control", value: find_customer(customer.id).name
                               %td
-                                =f.text_field :phone, class: "edit_customer_info_input",  readonly: "readonly", value: find_customer(customer.id).phone
+                                =f.text_field :phone, class: "edit_customer_info_input form-control",  readonly: "readonly", value: find_customer(customer.id).phone
                               %td
-                                =f.text_field :email, class: "edit_customer_info_input", value: find_customer(customer.id).email
+                                =f.text_field :email, class: "edit_customer_info_input form-control", value: find_customer(customer.id).email
                               %td
-                                =f.text_field :original_funds, class: "edit_customer_info_input", value: find_customer(customer.id).original_funds
+                                =f.text_field :original_funds, class: "edit_customer_info_input form-control", value: find_customer(customer.id).original_funds
 
                       %div(class="modal-footer" )
                         %input(type="submit" class="btn btn-primary btn-lg" value="保存")

@@ -22,6 +22,7 @@ module FinanceManagement
       customer.original_funds = params[:new_customer][:original_funds]
       customer.save
 
+      flash[:create_new_customer] = "success"
       redirect_to :action => 'index'
 
     end
