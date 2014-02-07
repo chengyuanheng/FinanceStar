@@ -72,7 +72,7 @@
                           -if find_customer(customer.id).present?
                             %tr
                               %td
-                                =f.text_field :name, class: "edit_customer_info_input form-control", value: find_customer(customer.id).name
+                                =f.text_field :name, class: "edit_customer_info_input form-control", readonly: "readonly", value: find_customer(customer.id).name
                               %td
                                 =f.text_field :phone, class: "edit_customer_info_input form-control",  readonly: "readonly", value: find_customer(customer.id).phone
                               %td

@@ -3,9 +3,7 @@ module FinanceManagement
 
 
     def find_customer id
-
-      customer = Customer.find_by(id:id)
-
+      Customer.find_by(id:id)
     end
 
 
