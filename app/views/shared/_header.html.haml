@@ -40,3 +40,9 @@
                 %li.divider
               %li
                 %a(href="javascript:{window.location.href = '/signout'}" ) 退出
+    -else
+      %ul(class="nav navbar-nav navbar-right")
+        %li
+          %a(href="/signup")
+            %span
+              去注册

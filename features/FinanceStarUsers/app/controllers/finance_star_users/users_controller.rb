@@ -27,8 +27,6 @@ module FinanceStarUsers
       @user = User.new(user_params)
       @user.save
       verify_code = generate_verify_code @user
-
-
       if @user.save
         MailerService.welcome_email(@user,verify_code).deliver
         redirect_to @user, notice: 'User was successfully created.'
@@ -70,7 +68,6 @@ module FinanceStarUsers
           user_verify_code = FinanceStarUsers::UserVerifyCode.create(user_id:user.id,code:verify_code)
         end
         user_verify_code.code
-
       end
 
   end
