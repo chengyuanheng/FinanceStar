@@ -97,13 +97,15 @@ module FinanceManagement
       CustomerConsume.find_by_sql("#{fix_query_sql} #{query}").paginate(:page => params[:page], :per_page => 10)
 
     end
-
-
-
-
-
-
-
-
   end
 end
+
+
+
+
+
+
+
+
+
+

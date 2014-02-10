@@ -1,12 +1,13 @@
 .container
   .row
-    -#%div(class="col-md-8" )
-    -#  %div(class="dl" )
-    -#    -if @customer.present?
-    -#      -@customer.each do |customer|
-    -#        %dt
-    -#          %span 客户#{customer.name}:
-    -#          %span
-    -#            .progress
-    -#              .progress-bar(process = "#{customer.original_funds.to_f/@original_funds_total}")
-    -#              %span.sr-only 起始资金:#{customer.original_funds}元
+    %div(class="col-md-8" )
+      %div(class="dl" )
+        -if @customer.present?
+          -@customer.each do |customer|
+            %dt
+              %span 客户#{customer.name}:
+              %span
+                .progress
+                  .progress-bar(process = "#{customer.original_funds.to_f/@original_funds_total}")
+                    %div 起始资金:#{customer.original_funds}元
+                  %span.sr-only 起始资金

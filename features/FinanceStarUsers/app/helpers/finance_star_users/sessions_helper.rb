@@ -31,14 +31,6 @@ module FinanceStarUsers
       signed_in? && current_user.admin
     end
 
-
-
-
-
-
-
-
-
     def deny_access
       redirect_to '/signin', :notice => "Please sign in to access this page."
     end
@@ -50,10 +42,6 @@ module FinanceStarUsers
     def admin_authenticate
       deny_access unless is_admin?
     end
-
-
-
-
 
   end
 end

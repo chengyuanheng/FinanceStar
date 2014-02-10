@@ -17,10 +17,10 @@ module FinanceStarUsers
       password == submitted_password
     end
 
-    #def self.not_admin
-    #  user = find_all_by_admin false
-    #  return user
-    #end
+    def self.not_admin
+      user = find_all_by_admin false
+      return user
+    end
 
   end
 end

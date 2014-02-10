@@ -22,9 +22,15 @@ module FinanceManagement
       customer.original_funds = params[:new_customer][:original_funds]
       customer.save
 
-      flash[:create_new_customer] = "success"
-      redirect_to :action => 'index'
-
+      respond_to do |format|
+        if customer.save
+          flash[:create_new_customer] = "success"
+          format.html { redirect_to :action => 'index', notice: 'User was successfully created.' }
+        else
+          flash[:create_new_customer] = "failed"
+          format.html { redirect_to :action => 'index', notice: 'User was failed created.' }
+        end
+      end
     end
 
 

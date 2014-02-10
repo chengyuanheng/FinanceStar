@@ -1,8 +1,9 @@
 .col-md-2
   .multilevel-nav
-    %ul.nav.nav-pills.nav-stacked
-      %li
-        %a.sub-level(href="/finance_management/my_finance/index")全部
+    -if @all_customer.present?
+      %ul.nav.nav-pills.nav-stacked
+        %li
+          %a.sub-level(href="/finance_management/my_finance/index")全部
     -@all_customer.each do |customer|
       %ul.nav.nav-pills.nav-stacked
         %li
