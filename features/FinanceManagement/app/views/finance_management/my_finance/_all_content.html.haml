@@ -20,7 +20,7 @@
             %ul.dropdown-menu(role="menu")
               -if @customers.blank?
                 %li
-                  %a() 暂无用户
+                  %a(href="javascript:{}") 暂无用户
               -else
                 -@customers.each do |customer|
                   %li
@@ -38,7 +38,7 @@
             %ul.dropdown-menu(role="menu")
               -if @customer_consume.blank?
                 %li
-                  %a() 暂无消费类型
+                  %a(href="javascript:{}") 暂无消费类型
               -else
                 -@customer_consume.each do |customer_consume|
                   %li
@@ -49,12 +49,12 @@
       .form-group
         %label.col-sm-2.control-label 消费
         .col-sm-10
-          %input#customer_consume_value.form-control(value="0")
+          %input#customer_consume_value.form-control(placeholder="请填写您的消费金额，单位默认为'元'。" )
 
       .form-group
         %label.col-sm-2.control-label 描述
         .col-sm-10
-          %textarea#customer_consume_describe.form-control(rows="1")
+          %textarea#customer_consume_describe.form-control(rows="1" placeholder="您可以在这里给出此次消费的相关描述。")
 
   .panel-footer.text-right
     %a.btn.btn-default(href = "") 取消

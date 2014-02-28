@@ -493,3 +493,15 @@
 .wx-preview .wx-bubble {
     font-size: 14px;
 }
+
+
+.demo-container {
+    position: relative;
+    height: 400px;
+}
+
+.pie {
+    width: 400px;
+    height: 170px;
+}
+

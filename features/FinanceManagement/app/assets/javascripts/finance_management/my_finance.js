@@ -24,6 +24,8 @@ function save_consume_table(){
     var customer_consume_value = $("#customer_consume_value").val();
     var customer_consume_describe = $("#customer_consume_describe").val();
 
+    customer_consume_value == '' ? customer_consume_value = 0 : customer_consume_value;
+
     var content = {
         "select_customer" : customer_name,
         "select_customer_consume" :customer_consume.substring(0,2),
