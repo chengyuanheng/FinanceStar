@@ -8,4 +8,10 @@ FinanceStarUsers::Engine.routes.draw do
   match "/signup" => 'register#new', :via => :get, :as => 'signup'
   match "/signup" => 'register#create', :via => :post
 
+  get "/bulk_sms" => "send_sms#index"
+
+  post 'sms_need_send' => 'send_sms#fetch_sms_need_send'
+
+  post "/bulk_sms" => "send_sms#save_bulk_sms"
+
 end

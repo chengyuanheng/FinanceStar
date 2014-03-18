@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20131219233127) do
+ActiveRecord::Schema.define(version: 20140317065452) do
 
   create_table "finance_management_customer_consumes", force: true do |t|
     t.string   "user_id"
@@ -38,6 +38,15 @@ ActiveRecord::Schema.define(version: 20131219233127) do
     t.string   "user_id"
     t.string   "consume"
     t.string   "consume_type"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "finance_star_users_sms_records", force: true do |t|
+    t.integer  "user_id"
+    t.string   "content"
+    t.string   "phone"
+    t.string   "has_send",   default: "f"
     t.datetime "created_at"
     t.datetime "updated_at"
   end

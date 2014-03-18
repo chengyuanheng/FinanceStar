@@ -18,8 +18,7 @@ module FinanceStarUsers
     end
 
     def self.not_admin
-      user = find_all_by_admin false
-      return user
+      where(admin:false)
     end
 
   end

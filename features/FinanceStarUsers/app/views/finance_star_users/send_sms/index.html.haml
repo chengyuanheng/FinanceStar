@@ -1,0 +1,34 @@
+%div(class="alert alert-danger"  id='receiver_is_null_tip' hidden="true" )
+  %p
+    %strong 您选的的收信人不能为空!
+%div(class="alert alert-danger"  id='content_is_null_tip' hidden = "true")
+  %p
+    %strong 您发送的内容不能为空!
+
+
+%div(class="tab-content")
+  %div(class="tab-pane active" id="message-input")
+    %div(class="row")
+      %div(class="col-md-6" )
+        %div(class="panel panel-default" )
+          %div(class="panel-heading" )
+            发送对象
+          %div(class="panel-body multiselect" )
+            %div(class="row" )
+              -@all_users.each do |user|
+                %div(class="col-md-6 " )
+                  %div(class=" checkbox " id="#{user.id}")
+                    %label
+                      %input(type="checkbox" name='shangjia' value="#{user.id}" )
+                      = user.name
+
+          %div(class="panel-footer clearfix" )
+            %button(class="btn btn-default" onclick="check_all_user()" ) 全选
+            %button(class="btn btn-default" onclick="uncheck_all_user()" ) 全不选
+      %div(class="col-md-6" )
+        %div(class="panel panel-heading" ) 发送内容
+        %div(class="panel panel-body" )
+          %textarea(class="form-control" rows='3' id='sms_content')
+        %div(class="panel-footer clearfix text-right" )
+          %button(id = "confirm_send" class="btn btn-primary" data-target="#modal-message" onclick="confirm_send()" ) 发送
+=render 'confirm_send_sms'

@@ -20,7 +20,13 @@
               %a(href="javascript:{window.location.href = '/finance_management/finance_statistics/index'}") 信息统计
             -#%li#_finance_management_customer_management_index
             -#  %a(href="javascript:{window.location.href = '#'}" ) Wap系统
-
+        -if is_admin?
+          %ul(class="nav navbar-nav")
+            %li#_finance_star_users_index
+              %a(href="javascript:{window.location.href = '/'}") 首页
+          %ul(class="nav navbar-nav")
+            %li#_admin_crm_all_user
+              %a(href="/bulk_sms" )短信群发
         %ul(class="nav navbar-nav navbar-right" )
           %li(class="dropdown" )
             %a(class="dropdown-toggle" data-toggle="dropdown" href="#" )
