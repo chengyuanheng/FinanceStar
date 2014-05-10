@@ -18,7 +18,6 @@ function exchange_customer_consume(consume,consume_type){
 }
 
 function save_consume_table(){
-
     var customer_name = $("#select_customer").text();
     var customer_consume =  $("#select_customer_consume").text();
     var customer_consume_value = $("#customer_consume_value").val();
@@ -62,6 +61,4 @@ function save_consume_table(){
     }
 
     window.location.reload();
-
-
 }

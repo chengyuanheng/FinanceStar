@@ -4,16 +4,12 @@ require "will_paginate/array"
 module FinanceManagement
   class CustomerManagementController < ApplicationController
 
-
     def index
-
-      @customers = Customer.find_all_by_user_id(current_user_id).paginate(:page => params[:page], :per_page => 10)
-
+      @customers = Customer.where(user_id:current_user_id).paginate(:page => params[:page], :per_page => 10)
     end
 
 
     def add_new_customer
-
       customer = Customer.new
       customer.user_id = current_user_id
       customer.name = params[:new_customer][:name]
@@ -33,10 +29,7 @@ module FinanceManagement
       end
     end
 
-
-
     def edit_customer
-
       customer = Customer.find_by(phone:params[:edit_customer][:phone])
       customer.name = params[:edit_customer][:name]
       customer.email = params[:edit_customer][:email]
@@ -44,19 +37,13 @@ module FinanceManagement
       customer.save
 
       redirect_to :action => 'index'
-
     end
 
     def delete_customer
-
       customer = Customer.find_by(id:params[:id])
       customer.delete
 
       redirect_to :action => 'index'
-
     end
-
-
-
   end
 end

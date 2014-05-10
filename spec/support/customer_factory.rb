@@ -1,4 +1,5 @@
 FactoryGirl.define do
+
   factory :customer, class: FinanceManagement::Customer do
     name "cc"
     phone "18733171780"
@@ -18,6 +19,4 @@ FactoryGirl.define do
     consume "支出"
     consume_type "旅游"
   end
-
-
 end

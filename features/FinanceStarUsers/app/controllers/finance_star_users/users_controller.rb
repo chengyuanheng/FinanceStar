@@ -1,5 +1,4 @@
 require_dependency "finance_star_users/application_controller"
-
 module FinanceStarUsers
   class UsersController < ApplicationController
     before_action :set_user, only: [:show, :edit, :update, :destroy]
@@ -69,6 +68,5 @@ module FinanceStarUsers
         end
         user_verify_code.code
       end
-
   end
 end

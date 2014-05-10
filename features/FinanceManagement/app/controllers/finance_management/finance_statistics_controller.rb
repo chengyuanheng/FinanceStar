@@ -5,13 +5,10 @@ module FinanceManagement
   class FinanceStatisticsController < ApplicationController
 
     def index
-
       @customer_consume = CustomerConsume.where(user_id:current_user_id).group(:customer_name,:consume).having("created_at < ?", Time.now()).sum(:consume_value)
-
     end
 
     def show_customer_detail
-
       @name = params[:name]
 
       condition = {consume: params[:consume_classify], time: params[:time_classify]}
@@ -27,12 +24,9 @@ module FinanceManagement
       @expenses_total = @the_customer_all_consume.where(consume:"支出").sum(:consume_value)
 
       @surplus_finance = @original_funds + @income_total - @expenses_total
-
     end
 
-
     def select_customer condition
-
       consume_filter = {}
       time_filter = {}
 
@@ -67,10 +61,7 @@ module FinanceManagement
       query = filter_sql filter_hash
 
       filter_customer query
-
     end
-
-
 
     def filter_sql filter_hash
 
@@ -87,25 +78,12 @@ module FinanceManagement
       end
 
       return filter_sql_one + filter_sql_two
-
     end
 
     def filter_customer query
-
       fix_query_sql = "select * from finance_management_customer_consumes customer_consume where customer_consume.user_id = '#{current_user_id}' and customer_consume.customer_name = '#{params[:name]}'"
 
       CustomerConsume.find_by_sql("#{fix_query_sql} #{query}").paginate(:page => params[:page], :per_page => 10)
-
     end
   end
 end
-
-
-
-
-
-
-
-
-
-

@@ -14,5 +14,4 @@ FactoryGirl.define do
     phone "77777777777"
     admin true
   end
-
 end

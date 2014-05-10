@@ -1,5 +1,4 @@
 require_dependency "finance_star_users/application_controller"
-
 module FinanceStarUsers
   class RegisterController < ApplicationController
 
@@ -23,7 +22,6 @@ module FinanceStarUsers
           format.json { render json: @user.errors, status: :unprocessable_entity }
         end
       end
-
     end
 
     private
@@ -41,5 +39,5 @@ module FinanceStarUsers
       session[:user_id] = user.id
     end
   end
-
 end
+

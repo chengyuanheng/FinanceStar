@@ -17,7 +17,5 @@
         = link_to 'Destroy', user, method: :delete, data: { confirm: 'Are you sure?' }
 
 %br
-
 = link_to 'New User', new_user_path
-
 =will_paginate @users , :previous_label => '上一页' , :next_label => '下一页', renderer: BootstrapPagination::Rails

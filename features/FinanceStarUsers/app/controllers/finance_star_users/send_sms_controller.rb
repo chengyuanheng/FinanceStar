@@ -1,5 +1,4 @@
 require_dependency "finance_star_users/application_controller"
-
 module FinanceStarUsers
   class SendSmsController < ApplicationController
 

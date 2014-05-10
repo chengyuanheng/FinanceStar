@@ -6,13 +6,10 @@ $(window).ready(function () {
     render_classify();
 });
 
-
-
 function render_classify(){
     render_filter('consume');
     render_filter('time');
 }
-
 
 function render_filter(option) {
     var option_param = get_url_param(option + '_classify');
@@ -34,17 +31,6 @@ function render_filter_option(option, option_param) {
     });
 }
 
-
-
-
-
-
-
-
-// Place all the behaviors and hooks related to the matching controller here.
-// All this logic will automatically be available in application.js.
-
-
 function select_classify_filter(me, classify) {
     remove_primary_class_of_all_item_id_dd(classify);
 
@@ -53,14 +39,12 @@ function select_classify_filter(me, classify) {
     submit_select_classify();
 }
 
-
 function remove_primary_class_of_all_item_id_dd(classify) {
     $("#" + classify + " " + "a").each(function () {
         $(this).removeClass('label-primary')
         $(this).addClass('label-blank')
     });
 }
-
 
 function submit_select_classify() {
     title = $("#customer_name").text().trim();
@@ -95,7 +79,7 @@ ItemMapping.get_key = function(id, value){
             return key
         }
     }
-}
+};
 
 function fetch_primary_param(id) {
     var param = '';
@@ -107,7 +91,3 @@ function fetch_primary_param(id) {
     });
     return param;
 };
-
-
-
-

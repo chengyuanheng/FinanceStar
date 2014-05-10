@@ -1,8 +1,6 @@
 #encoding=UTF-8
-
 module FinanceStarUsers
   module SessionsHelper
-
     def sign_in(user)
       session[:user_id] = user.id
     end
@@ -42,6 +40,5 @@ module FinanceStarUsers
     def admin_authenticate
       deny_access unless is_admin?
     end
-
   end
 end

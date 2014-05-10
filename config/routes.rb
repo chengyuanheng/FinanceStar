@@ -55,5 +55,4 @@ FinanceStar::Application.routes.draw do
   #   end
   mount FinanceStarUsers::Engine, :at => '/'
   mount FinanceManagement::Engine, :at => '/finance_management'
-
 end

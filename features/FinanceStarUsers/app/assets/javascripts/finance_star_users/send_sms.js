@@ -1,12 +1,9 @@
-// Place all the behaviors and hooks related to the matching controller here.
-// All this logic will automatically be available in application.js.
-
 $(window).ready(function () {
     $('label input').click(function () {
         $(this).parent().parent().toggleClass('selected')
     });
 
-    var time = 5
+    var time = 5;
     var clear_interval = 0;
 
     function hide_send_sms_success_tip() {
@@ -21,7 +18,6 @@ $(window).ready(function () {
 
     $("#tip_send_sms_success").show();
     clear_interval = setInterval(hide_send_sms_success_tip, 1000)
-
 });
 
 function uncheck_all_user() {
@@ -109,7 +105,6 @@ function fetch_checked_users_name() {
     var sms_receiver_names = [];
     $.each($("input[type=checkbox]:checked"),function(index,item) {
         sms_receiver_names.push($(item).parent().text().trim());
-    })
+    });
     return  sms_receiver_names
 }
-

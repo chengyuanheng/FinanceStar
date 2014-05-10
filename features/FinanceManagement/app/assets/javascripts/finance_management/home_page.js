@@ -2,7 +2,6 @@
 // All this logic will automatically be available in application.js.
 //
 function show_pip(element) {
-
     var pie_id = $(element).find(".pie").attr('id');
     var pie_data = JSON.parse($(element).find(".none").text());
     var div_block = $("#" + pie_id);
@@ -25,12 +24,9 @@ function show_pip(element) {
         }
     });
 
-
     function labelFormatter(label, series) {
-
         return "<div style='font-size:8pt; text-align:center; padding:2px; '>" + label + "<br/>" + (series.percent.toFixed(2)) + "%</div>";
     }
-
 }
 
 $(document).ready(function () {
@@ -39,5 +35,4 @@ $(document).ready(function () {
             show_pip(element)
         });
     }
-
 });

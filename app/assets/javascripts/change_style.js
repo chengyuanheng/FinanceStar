@@ -8,16 +8,13 @@ $(document).ready(function () {
     change_style_to_active()
 });
 
-
 function change_style_to_active() {
     var id = fetch_id_base_path();
-
     $("#" + id).addClass('active')
 }
 
 
 function fetch_id_base_path() {
-
     var id_transform_from_path = _build_id();
 
     var customer_mapping = {
@@ -28,13 +25,12 @@ function fetch_id_base_path() {
     };
 
     var mapping = {};
+
     $.extend(mapping, customer_mapping);
 
     return mapping[id_transform_from_path];
 
-
     function _build_id() {
-
         var path = window.location.pathname;
 
         if(path.indexOf('/finance_management/finance_statistics/show_customer_detail')!=-1) {
@@ -46,9 +42,6 @@ function fetch_id_base_path() {
         if(path.indexOf('/finance_management/my_finance/income')!=-1) {
             path = '/finance_management/my_finance/index'
         }
-
         return path.replace(/\//g, '_');
     }
 }
-
-
