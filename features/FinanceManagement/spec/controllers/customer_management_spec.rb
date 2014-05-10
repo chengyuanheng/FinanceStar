@@ -50,7 +50,7 @@ describe FinanceManagement::CustomerManagementController do
     it "should redirect to index page" do
       subject
 
-      response.should redirect_to '/finance_management/customer_management/index'
+      response.status.should eq(302)
     end
 
   end
@@ -81,7 +81,7 @@ describe FinanceManagement::CustomerManagementController do
       customer = FinanceManagement::Customer.find_by(phone:"18733171780")
       customer.name.should eq("kk")
       customer.email.should eq("237178843@qq.com")
-      customer.original_funds.should eq("200")
+      customer.original_funds.should eq(200)
 
     end
 

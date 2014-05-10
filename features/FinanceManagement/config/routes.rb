@@ -36,7 +36,4 @@ FinanceManagement::Engine.routes.draw do
 
   get "finance_statistics/show_customer_detail/:name" ,to: "finance_statistics#show_customer_detail"
 
-
-
-
 end
