@@ -36,13 +36,7 @@
             %ul(class="dropdown-menu" )
               -if !is_admin?
                 %li
-                  %a(href="javascript:{window.location.href = '#'}" )用户认证
-                %li.divider
-                %li
-                  %a(href="#")个人信息
-                %li.divider
-                %li
-                  %a(href="#" )密码修改
+                  %a(href="/setting/info" ) 个人信息
                 %li.divider
               %li
                 %a(href="javascript:{window.location.href = '/signout'}" ) 退出

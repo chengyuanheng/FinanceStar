@@ -1,0 +1,46 @@
+.row
+  .col-sm-4
+    %h4 个人信息
+    %hr
+      .field.useredit.clearfix
+        %label ID:
+        %span #{@user.id+100000}
+      .field.useredit.clearfix
+        %label 姓名:
+        %input.useredit_input(type="text" value="#{@user.name}" disabled= 'disabled')
+      .field.useredit.clearfix
+        %label 邮箱:
+        %input.useredit_input(type="text" value="#{@user.email}" disabled= 'disabled')
+      .field.useredit.clearfix
+        %label 电话:
+        %input.useredit_input(type="text" value="#{@user.phone}" disabled= 'disabled')
+
+  .col-sm-4
+    %h4 账户信息
+    %hr
+      .field.useredit.clearfix
+        %label 用户数:
+        %input.useredit_input(type="text" value="#{@customer_count}人" disabled= 'disabled')
+      .field.useredit.clearfix
+        %label 共收入:
+        %input.useredit_input(type="text" value="#{@income_total}元" disabled= 'disabled')
+      .field.useredit.clearfix
+        %label 共支出:
+        %input.useredit_input(type="text" value="#{@expenses_total}元" disabled= 'disabled')
+
+
+  .col-sm-4
+    %h4 密码修改
+    %hr
+      .field.useredit.clearfix
+        %label 当前密码:
+        %input.useredit_input.origin_password(type="password" onkeyup="confirm_origin_password()")
+      .field.useredit.clearfix
+        %label 新密码:
+        %input.useredit_input.new_password(type="password" onkeyup= "confirm_new_password()")
+      .field.useredit.clearfix
+        %label 确认密码:
+        %input.useredit_input.confirm_new_password(type="password" onkeyup= "confirm_new_password()")
+      .pull-right
+        %a.btn.btn-primary.password_submit(onclick= "update_password()" disabled="disabled")提交
+

@@ -20,4 +20,10 @@ FinanceStarUsers::Engine.routes.draw do
 
   post "/bulk_sms" => "send_sms#save_bulk_sms"
 
+  get "/setting/info" => "setting#info"
+
+  post '/confirm_origin_password' => "setting#confirm_origin_password"
+
+  post '/update_password' => 'setting#update_password'
+
 end
