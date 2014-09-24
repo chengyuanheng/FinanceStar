@@ -29,12 +29,16 @@ gem 'jbuilder', '~> 1.2'
 
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
-  gem 'sdoc', require: false
+  gem 'sdoc', :require=> false
 end
 
 group :test do
   gem 'rspec-rails'
   gem 'factory_girl_rails'
+  gem 'pry'
+  gem 'thin'
+  gem 'cucumber-rails', :require => false
+  gem 'database_cleaner'
 end
 
 gem 'mysql2'
@@ -61,3 +65,5 @@ gem 'protected_attributes'
 gem 'finance_star_users', :path => "./features/FinanceStarUsers"
 
 gem 'finance_management', :path => "./features/FinanceManagement"
+
+

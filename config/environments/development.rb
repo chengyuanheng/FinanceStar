@@ -36,4 +36,12 @@ FinanceStar::Application.configure do
       :password => 'yehehuan123'
   }
 
+  silence_warnings do
+    begin
+      require 'pry'
+      IRB = Pry
+    rescue LoadError
+    end
+  end
+
 end
