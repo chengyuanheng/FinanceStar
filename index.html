@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="width=640">
+
+    <link rel="stylesheet" href="stylesheets/core.css" media="screen">
+    <link rel="stylesheet" href="stylesheets/mobile.css" media="handheld, only screen and (max-device-width:640px)">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+
+    <script type="text/javascript" src="javascripts/modernizr.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script type="text/javascript" src="javascripts/headsmart.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $('#main_content').headsmart()
+      })
+    </script>
+    <title>Financestar by chengyuanheng</title>
+  </head>
+
+  <body>
+    <a id="forkme_banner" href="https://github.com/chengyuanheng/FinanceStar">View on GitHub</a>
+    <div class="shell">
+
+      <header>
+        <span class="ribbon-outer">
+          <span class="ribbon-inner">
+            <h1>Financestar</h1>
+            <h2>测试</h2>
+          </span>
+          <span class="left-tail"></span>
+          <span class="right-tail"></span>
+        </span>
+      </header>
+
+      <section id="downloads">
+        <span class="inner">
+          <a href="https://github.com/chengyuanheng/FinanceStar/zipball/master" class="zip"><em>download</em> .ZIP</a><a href="https://github.com/chengyuanheng/FinanceStar/tarball/master" class="tgz"><em>download</em> .TGZ</a>
+        </span>
+      </section>
+
+
+      <span class="banner-fix"></span>
+
+
+      <section id="main_content">
+        <div><div></div></div><div><br></div><div><b>metric_fu</b></div><div>
+<h2>
+<a id="installation" class="anchor" href="#installation" aria-hidden="true"><span class="octicon octicon-link"></span></a>Installation</h2>
+<h2>
+<a id="gem-install-metric_fu" class="anchor" href="#gem-install-metric_fu" aria-hidden="true"><span class="octicon octicon-link"></span></a><pre><code>gem install metric_fu</code></pre>
+</h2>
+<h2>
+<a id="gem" class="anchor" href="#gem" aria-hidden="true"><span class="octicon octicon-link"></span></a>Gem</h2>
+<h2></h2>
+<p>From your Gemfile ,install these gems for test and development environment</p>
+<div><pre>group :test ,:development do
+
+gem "metric_fu"
+
+gem 'simplecov'
+
+gem 'simplecov-rcov-text'
+
+gem 'roodi' #these gem ensure that you can run roodi or roodi . in shell
+
+end</pre></div>
+<h2>
+<a id="require" class="anchor" href="#require" aria-hidden="true"><span class="octicon octicon-link"></span></a>Require</h2>
+<h2></h2>
+<p>From your Rakefile</p>
+<div><pre> require 'churn'</pre></div>
+<h2>
+<a id="usage" class="anchor" href="#usage" aria-hidden="true"><span class="octicon octicon-link"></span></a>Usage</h2>
+<h2></h2>
+<p>From your application root. Running via Rake is still supported.</p>
+<div><pre>metric_fu
+</pre></div>
+<p>See:</p>
+<ul><li>
+<code>metric_fu --help</code> for more options</li></ul>
+<h2>
+<a id="run" class="anchor" href="#run" aria-hidden="true"><span class="octicon octicon-link"></span></a>Run</h2>
+<div>run "rake -T", you can see all of Commands that you can use , for example:</div>
+<div><pre>rake metrics:all 
+rake metrics:cane
+rake metrics:churn
+rake metrics:flay
+rake metrics:flog
+rake metrics:hotspots
+rake metrics:only
+rake metrics:rails_best_practices
+rake metrics:reek
+rake metrics:roodi
+rake metrics:saikuro
+rake metrics:stats </pre></div>
+<br>
+</div><div>Run these commands , you will get some reports at "server/tmp/metric_fu/output" and yml files at "server/tmp/metric_fu/_data"</div><div><h2>
+<a id="in-shell" class="anchor" href="#in-shell" aria-hidden="true"><span class="octicon octicon-link"></span></a>In shell </h2></div><div><pre>rspec .</pre></div><div>Run the command , you will run all testings include all of engine and get a value about test coverage</div><div><br></div><div>run other metric_fu features: </div><div>
+<pre>flog feature/ #measuring code complexity</pre>
+<pre>flay feature/ #find duplicate (including copy / paste and structure)</pre>
+<pre>reek .   or   reek features/     #spot code smells</pre>
+<pre>roodi  or  roodi .          #find a large number of general issues</pre>
+<pre>rake churn     #Identifies the file changes too frequently</pre>
+<pre>rails_best_practices .      #code matrix tool</pre>
+<pre>cane             #code quality threshold violation</pre>
+</div><div>Extra</div><div>
+<div>    saikuro - cyclomatic complexity measure</div>
+<div>    hotspot - hot code analysis</div>
+</div><div><h2>
+<a id="link" class="anchor" href="#link" aria-hidden="true"><span class="octicon octicon-link"></span></a>Link</h2></div><div>
+<div>
+<b>metric_fu :</b> <a target="_blank" href="https://github.com/metricfu/metric_fu">https://github.com/metricfu/metric_fu</a>
+</div>
+<div><b><br></b></div>
+</div><div>
+<b>reek, a code smells detector for ruby :</b> <a href="http://silkandspinach.net/2008/09/23/reek-a-code-smells-detector-for-ruby/" target="_blank">http://silkandspinach.net/2008/09/23/reek-a-code-smells-detector-for-ruby/</a>
+</div><div><br></div><div>
+<b>How To Score Your Rails </b><b>App's Complexity Before Refactoring : </b><a target="_blank" href="http://www.railsinside.com/tutorials/487-how-to-score-your-rails-apps-complexity-before-refactoring.html">http://www.railsinside.com/tutorials/487-how-to-score-your-rails-apps-complexity-before-refactoring.html</a> </div><div><br></div><div>
+<div><br></div>
+<div><br></div>
+</div><div><br></div><div><br></div>
+      </section>
+
+      <footer>
+        <span class="ribbon-outer">
+          <span class="ribbon-inner">
+            <p>this project by <a href="https://github.com/chengyuanheng">chengyuanheng</a> can be found on <a href="https://github.com/chengyuanheng/FinanceStar">GitHub</a></p>
+          </span>
+          <span class="left-tail"></span>
+          <span class="right-tail"></span>
+        </span>
+        <p>Generated with <a href="http://pages.github.com">GitHub Pages</a> using Merlot</p>
+        <span class="octocat"></span>
+      </footer>
+
+    </div>
+
+    
+  </body>
+</html>
